@@ -8,8 +8,8 @@
       h1 Escalado manual de prendas
     
     
-    #t_3_2.titulo-segundo.mb-4
-      h2 Introducción y conceptualización - escalado
+    .titulo-segundo.pri.mb-4
+      h2.pri \\\ Introducción y conceptualización - escalado
 
     
     .row.justify-content-center.mb-5
@@ -22,8 +22,8 @@
             .col-lg-3.col-md-8.col-8
               img.img-a.img-t(src='@/assets/curso/tema1/img1.svg', alt='tema1')
               
-    #t_3_2.titulo-segundo.color-primario.mb-4
-      h2 Plano cartesiano
+    .titulo-segundo.pri.mb-4
+      h2.pri \\\ Plano cartesiano
 
     p.mb-4 Está formado por dos rectas perpendiculares, una horizontal y otra vertical que se entrecruzan en un punto.
     
@@ -109,21 +109,23 @@
                   i.fas.fa-circle
                   | La diferencia de #[b alto] es 2 cm
     
-    .row.justify-content-center.mb-5
-      .col-lg-9.col-md-12.col-12
-        .caja22.rad.p-4
-          .row.justify-content-center.mb-5
-            .col-lg-2.col-md-12.col-12
-              img.img-a.img-t(src='@/assets/curso/tema1/img7.svg', alt='tema1')
-            .col-lg-8.col-md-12.col-12
-              p.mb-0 Se debe sacar un cuadrado más pequeño y un cuadrado más grande. Recuerde que todos los lados del cuadrado deben quedar iguales.
+    .row.mb-5.align-items-center.justify-content-center
+      .col-lg-10.col-md-12.col-12
+        .row.justify-content-center.align-items-center
+          .col-2
+            .avatar
+              img.img-a.img-t.d-none.d-lg-block(src="@/assets/curso/tema1/img7.svg")
+          .col-lg-10.col-md-12.col-12.caj.p-3
+            .row
+              .col-1
+              .col-10
+                p.my-3 Se debe sacar un cuadrado más pequeño y un cuadrado más grande. Recuerde que todos los lados del cuadrado deben quedar iguales.
     
-    #t_3_2.titulo-segundo.mb-4
-      h2 Análisis sobre plano cartesiano
+    .titulo-segundo.pri.mb-4
+      h2.pri \\\ Análisis sobre plano cartesiano
 
-
+    SlyderB.mb-5(:datos="datosSlyder")
     
-
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
       .col-lg-10.col-md-12.col-12
         .fondo21.p-4.mb-2
@@ -138,8 +140,8 @@
                 span Descargar
                 i.fas.fa-file-download
     
-    #t_3_2.titulo-segundo.mb-4
-      h2 Conclusiones
+    .titulo-segundo.pri.mb-5
+      h2.pri \\\ Conclusiones
     
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
       .col-lg-12.col-md-12.col-12
@@ -148,7 +150,7 @@
             .cajon.color-primario.p-4.mb-4
               p.mb-0 El manejo del punto de origen - punto cero - punto muerto, es el primer acercamiento a la comprensión de trasladar, modificar, mover puntos de referencia o construcción.
             p.mb-4 El concepto de positivo o negativo sobre el plano depende del punto de origen; aplicar en escalado se refiere a cada vez que se trabaja una medida sobre el plano cartesiano:
-            .row.justify-content-center.mb-5
+            .row.justify-content-center.mb-0
               .col-lg-9.col-md-12.col-12
                 .caja22.rad.p-4
                   .row.justify-content-center
@@ -166,8 +168,8 @@
           .col-lg-4.col-md-8.col-8
             img.img-a.img-t(src='@/assets/curso/tema1/img9.png', alt='tema1')
 
-    #t_3_2.titulo-segundo.mb-4
-      h2 Proporciones
+    .titulo-segundo.pri.mb-5
+      h2.pri \\\ Proporciones
     
     .row.justify-content-center.mb-5
       .col-lg-12.col-md-12.col-12
@@ -184,8 +186,8 @@
                 .col-lg-10.col-md-12.col-12.mb-4
                   img.img-a.img-t(src='@/assets/curso/tema1/img10.jpg', alt='tema1')
 
-    #t_3_2.titulo-segundo.mb-4
-      h2 Cómo identificar las proporciones                
+    .titulo-segundo.pri.mb-4
+      h2.pri \\\ Cómo identificar las proporciones                
 
     p.mb-5 Si la diferencia entre una medida y otra es de 2cm. La proporción equivale a #[b la manera en la que se aplica en el plano,] es decir:
     
@@ -203,6 +205,22 @@
                 li.mb-0
                   i.fas.fa-circle
                   | #[b Si sobre el plano se aplica la mitad de la medida, ]  esto equivale a 1/2 proporción, 1/2 proporción será 1 cm.
+    
+    TabsC.color-primario.mb-5(data-aos="zoom-in-left")
+      .py-3.py-md-4.bg26.px-3(titulo="Plano completo")
+        .row.justify-content-center
+          .col-lg-5.col-md-12.my-3
+            img.img-a.img-t(src='@/assets/curso/tema1/img41.svg', alt='')
+          .col-lg-7.col-md-12.my-3
+            p En este caso se aplica una proporción porque en el plano se está trabajando la medida total.
+      .py-3.py-md-4.bg26.px-3(titulo="Plano por mitad")
+        .row.justify-content-center
+          .col-lg-5.col-md-12.my-3
+            img.img-a.img-t(src='@/assets/curso/tema1/img42.svg', alt='')
+          .col-lg-7.col-md-12.my-3
+            p En este caso en el ancho se debe aplicar 1/2 proporción, porque en el plano se está trabajando la mitad de la medida total.
+          
+    
     
     .row.justify-content-center.mb-5
       .col-lg-12.col-md-12.col-12
@@ -235,22 +253,22 @@
       .col-lg-10.col-md-12.col-12
         .row.justify-content-center.mb-0
           .col-lg-5.col-md-12.col-12
-            .caja5.p-4
-              ul.lista-ul--color.f-1
+            .caja5.p-4.mb-4
+              ul.lista-ul--color.f-2
                 li.mb-0
-                  i.fas.fa-circle
+                  i.fas.fa-square
                   | El cuadro de tallas asignado
                 li.mb-0
-                  i.fas.fa-circle
+                  i.fas.fa-square
                   | Las diferencias entre talla y talla
                 li.mb-0
-                  i.fas.fa-circle
+                  i.fas.fa-square
                   | La talla base y las medidas
           .col-lg-5.col-md-12.col-12
-            .caja5.p-4
-              ul.lista-ul--color.f-1
-                li.mb-0.d-flex
-                  i.fas.fa-circle
+            .caja5.p-4.mb-4
+              ul.lista-ul--color.f-2
+                li.d-flex.my-3
+                  i.fas.fa-square.mb-5
                   |  Asignación de proporciones, plano por mitad.
     
     
@@ -316,9 +334,68 @@
                           i.fas.fa-circle
                           | Reglas en centímetros
 
-    #t_3_2.titulo-segundo.mb-4
-      h2 Análisis de cuadros de tallas
-    
+    .titulo-segundo.pri.mb-5
+      h2.pri \\\ Tipos de escalado
+
+    TabsC.color-primario.mb-5(data-aos="zoom-in-left")
+      .py-3.py-md-4.bg26.px-3(titulo="Escalado monobásico")
+        .row.justify-content-center
+          .col-lg-4.col-md-12.my-3
+            img.img-a.img-t(src='@/assets/curso/tema1/img43.png', alt='')
+          .col-lg-7.col-md-12.my-3
+            p.mb-0 Partiendo de tallas base se obtienen las demás por aumento o reducción.
+            p.mb-0 En este caso los incrementos entre tallas se mantienen constantes en toda la serie.
+            p.mb-4 Crecimiento de estatura se produce aumentando ancho y largos, llamándose también escalado de crecimiento real.
+            ul.lista-ul--color.f-1
+              li.mb-4.d-flex.mx-0
+                i.fas.fa-circle
+                | Simple o relativo/diferencial Se aplica cuando los incrementos de tallas varían dentro de la serie ejemplo, no se produce incremento de estatura, solo anchos.                ul.lista-ul--color.f-1
+              li.mb-4.d-flex.mx-0
+                i.fas.fa-circle
+                | Compuesto o absoluto propocional Los incrementos entre tallas se mantienen constantes en toda la serie, por ejemplo, se produce incremento de estatura, se aumenta anchos y largos, llamado también escalado de crecimiento real.
+      .py-3.py-md-4.bg26.px-3(titulo="Escalado bibásico")
+        .row.justify-content-center
+          .col-lg-4.col-md-12.my-3
+            img.img-a.img-t(src='@/assets/curso/tema1/img44.png', alt='')
+          .col-lg-7.col-md-12.my-3
+            p.mb-4 Tomamos dos tallas básicas para obtener una intermedia, lo ideal es disponer de dos patrones, talla prototipo y talla límite.
+            p.mb-4 Superponer patrón prototipo en el patrón límite con base en líneas comunes, una horizontal y una vertical.
+            p.mb-4 Las tallas intermedias se trazan uniendo los vértices de ambos patrones por medio de puntos y dividiéndolos por el número de patrones a hallar.
+      .py-3.py-md-4.bg26.px-3(titulo="Escalado tribásico")
+        .row.justify-content-center
+          .col-lg-4.col-md-12.my-3
+            img.img-a.img-t(src='@/assets/curso/tema1/img45.png', alt='')
+          .col-lg-7.col-md-12.my-3
+            p.mt-4 Se toman tres tallas para obtener una intermedia, por ejemplo, 10 – 14 – 18 para obtener la intermedia 12 - 16.
+
+    .titulo-segundo.pri.mb-5
+      h2.pri \\\ Análisis de cuadros de tallas
+
+    .row.justify-content-center.mb-5
+      .col-lg-4.col-md-10.col-12
+        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h1 John Doe
+              p Lorem ipsum dolor sit amet, 
+            .tarjeta-slide__img.p-4.img-a.img-t(:style="{'background-image': `url(${require('@/assets/curso/tema1/img46.svg')})`}")
+      .col-lg-4.col-md-10.col-12
+        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h1 John Doe
+              p Lorem ipsum dolor sit amet, 
+            .tarjeta-slide__img.p-4.img-a.img-t(:style="{'background-image': `url(${require('@/assets/curso/tema1/img47.svg')})`}")
+      .col-lg-4.col-md-10.col-12
+        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h1 John Doe
+              p Lorem ipsum dolor sit amet, 
+            .tarjeta-slide__img.p-4.img-a.img-t(:style="{'background-image': `url(${require('@/assets/curso/tema1/img48.svg')})`}")
     p.mb-5 Para el análisis de cuadros de tallas se determina:
 
     .row.justify-content-center.mb-5
@@ -387,16 +464,16 @@
                   i.fas.fa-circle
                   | Hacer el análisis de los puntos de escalado que se van a referenciar o modificar.
     Separador 
-    #t_3_2.titulo-segundo.mb-4
+    #t_1_1.titulo-segundo.mb-4
       h2 1.1 Escalado de falda
 
     p.mb-5 Para iniciar el proceso de escalado se debe tener en cuenta el procedimiento anteriormente mencionado y las especificaciones para trabajar en esta prenda, haciendo claridad que es un molde que no tiene margen de costura y tampoco es una prenda. Importante verificar por ejemplo el escaldo en las pinzas, y que las medidas sean iguales en lateral delantero y posterior, entre otras.
     
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12(data-aos="fade-left")
-        figure
-          .video
-            iframe(width="560" height="315" src="https://youtu.be/ddrsedOxtKA?si=yDr28LwoGrUkT8p2" title="Description" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+      .col-lg-12.col-10
+        figure(data-aos="fade-right").py-2
+          .video.mb-1
+            iframe(width="1280" height="720" src="https://youtube.com/embed/2Aa8iCb_Zpo" title="mantenimiento de maquinaria y equipos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           figcaption Nota. Adaptado de Escalado de falda.
     
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
@@ -414,21 +491,33 @@
                 i.fas.fa-file-download
     
     Separador 
-    #t_3_2.titulo-segundo.mb-4
+    #t_1_2.titulo-segundo.mb-5
       h2 1.2 Escalado de base con pinzas - superior
+    
+    .row.mb-5.align-items-center.justify-content-center
+      .col-lg-10.col-md-12.col-12
+        .row.justify-content-center.align-items-center
+          .col-2
+            .avatar
+              img.img-a.img-t.d-none.d-lg-block(src="@/assets/curso/tema1/img49.svg")
+          .col-lg-10.col-md-12.col-12.caj.p-2
+            .row
+              .col-1
+              .col-10
+                p.my-3 El proceso de escalado debe ser seguido conforme a lo planteado anteriormente, haciendo claridad que es un molde que no tiene margen de costura y tampoco es una prenda. Es importante analizar el escalado de pinzas, además verificaciones en medidas laterales, cintura, entre otras. 
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12(data-aos="fade-left")
-        figure
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com/watch?v=mN8946qBeGU" title="Description" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+      .col-lg-12.col-10
+        figure(data-aos="fade-right").py-2
+          .video.mb-1
+            iframe(width="1280" height="720" src="https://youtube.com/embed/2Aa8iCb_Zpo" title="mantenimiento de maquinaria y equipos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           figcaption Nota. Adaptado de Escalado de base con pinzas - superior.
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12(data-aos="fade-left")
-        figure
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com/watch?v=ui7cNs-qD1k" title="Description" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+      .col-lg-12.col-10
+        figure(data-aos="fade-right").py-2
+          .video.mb-1
+            iframe(width="1280" height="720" src="https://youtube.com/embed/2Aa8iCb_Zpo" title="mantenimiento de maquinaria y equipos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           figcaption Nota. Adaptado de Escalado de base con pinzas - superior.
     
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
@@ -446,7 +535,7 @@
                 i.fas.fa-file-download
 
     Separador 
-    #t_3_2.titulo-segundo.mb-4
+    #t_1_3.titulo-segundo.mb-4
       h2 1.3 Escalado de básico de pantalón
 
     .row.justify-content-center.mb-5
@@ -455,11 +544,11 @@
       .col-lg-11.col-md-12.col-12
         p.mb-4 De igual manera en las prendas inferiores, en el caso de trabajar un básico de pantalón, se sigue el procedimiento de escalado, quiere decir un molde que no tiene margen de costura, ni es una prenda. Para este caso es importante verificar todas las medidas y su correspondencia tanto en posterior y delantero, por ejemplo, que las medidas de los laterales sean iguales, además en la entrepierna; otro lado de especial atención es el tiro, para que no afecte la horma de la prenda.
     
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12(data-aos="fade-left")
-        figure
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com/watch?v=GS5jZ-Tw9vc" title="Description" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+      .col-lg-12.col-10
+        figure(data-aos="fade-right").py-2
+          .video.mb-1
+            iframe(width="1280" height="720" src="https://youtube.com/embed/2Aa8iCb_Zpo" title="mantenimiento de maquinaria y equipos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           figcaption Nota. Adaptado de Escalado de básico de pantalón.
     
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
@@ -477,7 +566,7 @@
                 i.fas.fa-file-download
 
     Separador 
-    #t_3_2.titulo-segundo.mb-4
+    #t_1_4.titulo-segundo.mb-4
       h2 1.4 Escalado cortes, manga, cuello
 
     p.mb-5 Como se ha mencionado en los anteriores escalados trabajados se debe seguir el procedimiento para estos casos, se hace referencia a prendas que ya han sido modificadas, que pueden tener margen de costura y validaciones como producto final. 
@@ -487,11 +576,11 @@
         .cajon.color-primario.p-4.mb-4
           p.mb-0 Es importante analizar la simetría requerida en las piezas, en el caso de cortes la distribución de las proporciones a escalar.
       
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12(data-aos="fade-left")
-        figure
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com/watch?v=5r4mM6naN40" title="Description" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+      .col-lg-12.col-10
+        figure(data-aos="fade-right").py-2
+          .video.mb-1
+            iframe(width="1280" height="720" src="https://youtube.com/embed/2Aa8iCb_Zpo" title="mantenimiento de maquinaria y equipos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           figcaption Nota. Adaptado de Escalado cortes, manga, cuello.
     
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
@@ -509,7 +598,7 @@
                 i.fas.fa-file-download
     
     Separador 
-    #t_3_2.titulo-segundo.mb-4
+    #t_1_5.titulo-segundo.mb-4
       h2 1.5 Base superior masculina - análisis de escalado bibásico
     
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
@@ -523,11 +612,11 @@
           .col-lg-4.col-md-8.col-8
             img.img-a.img-t(src='@/assets/curso/tema1/img28.png', alt='tema1')
     
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12(data-aos="fade-left")
-        figure
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com/watch?v=mN8946qBeGU&t=90s" title="Description" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+      .col-lg-12.col-10
+        figure(data-aos="fade-right").py-2
+          .video.mb-1
+            iframe(width="1280" height="720" src="https://youtube.com/embed/2Aa8iCb_Zpo" title="mantenimiento de maquinaria y equipos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           figcaption Nota. Adaptado de Escalado base superior masculina - análisis de escalado bibásico.
     
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
@@ -545,7 +634,7 @@
                 i.fas.fa-file-download
     
     Separador 
-    #t_3_2.titulo-segundo.mb-5
+    #t_1_6.titulo-segundo.mb-5
       h2 1.6 Análisis y construcción de cuadro de tallas masculino - dxt
 
     .row.justify-content-center.mb-5
@@ -555,11 +644,12 @@
         p.mb-4.my-4 En la metodología del manual de patronaje SENA la línea de masculino e infantil se debe identificar bajo la fórmula o el tipo de construcción de los planos o moldes para poder tener las medidas e incrementos por talla que se van a trabajar en el escalado, si bien se identifica en el manual un cuadro de tallas para cada una de estas líneas, se debe tener en cuenta que desde la construcción, por lo menos en las bases superiores, no se trabaja con el cuadro de tallas, es decir, que se debe hacer la construcción y el análisis del cuadro de tallas basándose en las fórmulas que indica cada una de las construcciones de las bases que se están trabajando, con el fin de poder identificar las diferencias por tallas que se van a aplicar en el escalado.
         p.mb-4 Ya después de tener la construcción del cuadro de tallas o identificar las tallas reales que se aplican sobre el trazo o molde se debe hacer el análisis de los puntos y movimientos de escalado que se van a referenciar o modificar.
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12(data-aos="fade-left")
-        figure
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com/watch?v=O-_ANTDpnLg" title="Description" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+      .col-lg-12.col-10
+        figure(data-aos="fade-right").py-2
+          .video.mb-1
+            iframe(width="1280" height="720" src="https://youtube.com/embed/2Aa8iCb_Zpo" title="mantenimiento de maquinaria y equipos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           figcaption Nota. Adaptado de Análisis y construcción de cuadro de tallas masculino - dxt.
     
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
@@ -580,13 +670,26 @@
     #t_1_7.titulo-segundo.color-primario.mb-5
       h2 1.7 Modificación de moldes - análisis sobre medidas
     
+    .row.mb-5.align-items-center.justify-content-center
+      .col-lg-10.col-md-12.col-12
+        .row.justify-content-center.align-items-center
+          .col-2
+            .avatar
+              img.img-a.img-t.d-none.d-lg-block(src="@/assets/curso/tema1/img7.svg")
+          .col-lg-10.col-md-12.col-12.caj.p-2
+            .row
+              .col-1
+              .col-10
+                p.my-3 Para el desarrollo de prendas y escalado de moldes se debe tener en cuenta que en algunas ocasiones se hace un análisis sobre medidas o sobre requerimientos de clientes específicos, algunas de ellas pueden ser modificaciones por talles, por anchos o por contornos. Este tipo de modificaciones se deben tener en cuenta al momento de realizar las prendas.
+
+    
     p.mb-5 En el presente video se podrá encontrar una explicación general sobre cómo y de qué manera se puede implementar este tipo de modificaciones, con mayor relevancia en los moldes que se han desarrollado a lo largo del programa.
     
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12(data-aos="fade-left")
-        figure
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com/watch?v=2Aa8iCb_Zpo" title="Description" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+      .col-lg-12.col-10
+        figure(data-aos="fade-right").py-2
+          .video.mb-1
+            iframe(width="1280" height="720" src="https://youtube.com/embed/2Aa8iCb_Zpo" title="mantenimiento de maquinaria y equipos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           figcaption Nota. Adaptado de Modificación de moldes - Análisis sobre medidas.
     
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
@@ -611,6 +714,72 @@ export default {
   components: {},
   data: () => ({
     // variables de vue
+    datosSlyder: [
+      {
+        titulo:
+          'Never, never assume that what you have achieved is good enough',
+        texto:
+          'Your rapidograph pens are dried up, the x-acto blades in your bag are rusty, and your mind is dull. Stop clicking your mouse, get messy, go back to the basics and make something original.',
+        imagen: require('@/assets/curso/tema1/img33.png'),
+        // leyendaImagen: 'Leyenda de la imagen',
+      },
+      {
+        titulo:
+          'Never, never assume that what you have achieved is good enough',
+        texto:
+          'Your rapidograph pens are dried up, the x-acto blades in your bag are rusty, and your mind is dull. Stop clicking your mouse, get messy, go back to the basics and make something original.',
+        imagen: require('@/assets/curso/tema1/img34.png'),
+        // leyendaImagen: 'Leyenda de la imagen',
+      },
+      {
+        titulo:
+          'Never, never assume that what you have achieved is good enough',
+        texto:
+          'Your rapidograph pens are dried up, the x-acto blades in your bag are rusty, and your mind is dull. Stop clicking your mouse, get messy, go back to the basics and make something original.',
+        imagen: require('@/assets/curso/tema1/img35.png'),
+        // leyendaImagen: 'Leyenda de la imagen',
+      },
+      {
+        titulo:
+          'Never, never assume that what you have achieved is good enough',
+        texto:
+          'Your rapidograph pens are dried up, the x-acto blades in your bag are rusty, and your mind is dull. Stop clicking your mouse, get messy, go back to the basics and make something original.',
+        imagen: require('@/assets/curso/tema1/img36.png'),
+        // leyendaImagen: 'Leyenda de la imagen',
+      },
+      {
+        titulo:
+          'Never, never assume that what you have achieved is good enough',
+        texto:
+          'Your rapidograph pens are dried up, the x-acto blades in your bag are rusty, and your mind is dull. Stop clicking your mouse, get messy, go back to the basics and make something original.',
+        imagen: require('@/assets/curso/tema1/img37.png'),
+        // leyendaImagen: 'Leyenda de la imagen',
+      },
+      {
+        titulo:
+          'Never, never assume that what you have achieved is good enough',
+        texto:
+          'Your rapidograph pens are dried up, the x-acto blades in your bag are rusty, and your mind is dull. Stop clicking your mouse, get messy, go back to the basics and make something original.',
+        imagen: require('@/assets/curso/tema1/img38.png'),
+        // leyendaImagen: 'Leyenda de la imagen',
+      },
+      {
+        titulo:
+          'Never, never assume that what you have achieved is good enough',
+        texto:
+          'Your rapidograph pens are dried up, the x-acto blades in your bag are rusty, and your mind is dull. Stop clicking your mouse, get messy, go back to the basics and make something original.',
+        imagen: require('@/assets/curso/tema1/img39.png'),
+        // leyendaImagen: 'Leyenda de la imagen',
+      },
+      {
+        titulo:
+          'Never, never assume that what you have achieved is good enough',
+        texto:
+          'Your rapidograph pens are dried up, the x-acto blades in your bag are rusty, and your mind is dull. Stop clicking your mouse, get messy, go back to the basics and make something original.',
+        imagen: require('@/assets/curso/tema1/img40.png'),
+        // leyendaImagen: 'Leyenda de la imagen',
+      },
+    ],
   }),
   mounted() {
     this.$nextTick(() => {
