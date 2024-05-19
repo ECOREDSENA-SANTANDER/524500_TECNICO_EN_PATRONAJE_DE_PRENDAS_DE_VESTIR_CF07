@@ -124,7 +124,7 @@
     .titulo-segundo.pri.mb-4
       h2.pri \\\ Análisis sobre plano cartesiano
 
-    SlyderB.mb-5(:datos="datosSlyder")
+    SlyderB.bg11.mb-5(:datos="datosSlyder")
     
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
       .col-lg-10.col-md-12.col-12
@@ -370,33 +370,40 @@
 
     .titulo-segundo.pri.mb-5
       h2.pri \\\ Análisis de cuadros de tallas
-
-    .row.justify-content-center.mb-5
-      .col-lg-4.col-md-10.col-12
-        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h1 John Doe
-              p Lorem ipsum dolor sit amet, 
-            .tarjeta-slide__img.p-4.img-a.img-t(:style="{'background-image': `url(${require('@/assets/curso/tema1/img46.svg')})`}")
-      .col-lg-4.col-md-10.col-12
-        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h1 John Doe
-              p Lorem ipsum dolor sit amet, 
-            .tarjeta-slide__img.p-4.img-a.img-t(:style="{'background-image': `url(${require('@/assets/curso/tema1/img47.svg')})`}")
-      .col-lg-4.col-md-10.col-12
-        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h1 John Doe
-              p Lorem ipsum dolor sit amet, 
-            .tarjeta-slide__img.p-4.img-a.img-t(:style="{'background-image': `url(${require('@/assets/curso/tema1/img48.svg')})`}")
+      
     p.mb-5 Para el análisis de cuadros de tallas se determina:
+    
+    .row.mb-5
+      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h1 Límites
+              p La más pequeña y la más grande. 
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img46.svg')})`}")
+              .tarjeta-slide_contenido.p-4.mt-5
+                h1.text-center.lim Límites
+      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h1 Frecuencia
+              p Aumento de medida talla a talla (secuencial y no secuencial - constantes y variables).
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img47.svg')})`}")
+              .tarjeta-slide_contenido.p-4.mt-5
+                h1.text-center.lim Frecuencia
+      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h1 Incremento
+              p Magnitud de crecimiento de la medida talla por talla. 
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img48.svg')})`}")
+              .tarjeta-slide_contenido.p-4.mt-5
+                h1.text-center.lim Incremento
 
     .row.justify-content-center.mb-5
       .col-lg-8.col-md-12.col-12
@@ -452,7 +459,7 @@
           .col-lg-4.col-md-12.col-12
             img.img-a.img-t(src='@/assets/curso/tema1/img22.jpg', alt='tema1')
           .col-lg-8.col-md-12.col-12
-            .caja5.p-5
+            .caja5.wid.p-5
               ul.lista-ul--color.f-1
                 li.mb-4
                   i.fas.fa-circle
@@ -473,7 +480,7 @@
       .col-lg-12.col-10
         figure(data-aos="fade-right").py-2
           .video.mb-1
-            iframe(width="1280" height="720" src="https://youtube.com/embed/2Aa8iCb_Zpo" title="mantenimiento de maquinaria y equipos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/ddrsedOxtKA?si=Y0XBIbjUFR2rxSNN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
           figcaption Nota. Adaptado de Escalado de falda.
     
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
@@ -494,9 +501,9 @@
     #t_1_2.titulo-segundo.mb-5
       h2 1.2 Escalado de base con pinzas - superior
     
-    .row.mb-5.align-items-center.justify-content-center
+    .row.align-items-center.justify-content-center.mb-5
       .col-lg-10.col-md-12.col-12
-        .row.justify-content-center.align-items-center
+        .row.justify-content-center.align-items-center.mb-4
           .col-2
             .avatar
               img.img-a.img-t.d-none.d-lg-block(src="@/assets/curso/tema1/img49.svg")
@@ -510,14 +517,14 @@
       .col-lg-12.col-10
         figure(data-aos="fade-right").py-2
           .video.mb-1
-            iframe(width="1280" height="720" src="https://youtube.com/embed/2Aa8iCb_Zpo" title="mantenimiento de maquinaria y equipos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/mN8946qBeGU?si=92rIKl-Gp91xT-0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
           figcaption Nota. Adaptado de Escalado de base con pinzas - superior.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12.col-10
         figure(data-aos="fade-right").py-2
           .video.mb-1
-            iframe(width="1280" height="720" src="https://youtube.com/embed/2Aa8iCb_Zpo" title="mantenimiento de maquinaria y equipos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/ui7cNs-qD1k?si=BIaAZ5EY_DV70nDz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
           figcaption Nota. Adaptado de Escalado de base con pinzas - superior.
     
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
@@ -548,7 +555,7 @@
       .col-lg-12.col-10
         figure(data-aos="fade-right").py-2
           .video.mb-1
-            iframe(width="1280" height="720" src="https://youtube.com/embed/2Aa8iCb_Zpo" title="mantenimiento de maquinaria y equipos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/GS5jZ-Tw9vc?si=Ghstt2xJl9elO2TD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
           figcaption Nota. Adaptado de Escalado de básico de pantalón.
     
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
@@ -580,7 +587,7 @@
       .col-lg-12.col-10
         figure(data-aos="fade-right").py-2
           .video.mb-1
-            iframe(width="1280" height="720" src="https://youtube.com/embed/2Aa8iCb_Zpo" title="mantenimiento de maquinaria y equipos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/5r4mM6naN40?si=igeK9hqMrzdHcmRX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
           figcaption Nota. Adaptado de Escalado cortes, manga, cuello.
     
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
@@ -616,7 +623,7 @@
       .col-lg-12.col-10
         figure(data-aos="fade-right").py-2
           .video.mb-1
-            iframe(width="1280" height="720" src="https://youtube.com/embed/2Aa8iCb_Zpo" title="mantenimiento de maquinaria y equipos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/mN8946qBeGU?si=aH5AtrPicz9jW1W1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
           figcaption Nota. Adaptado de Escalado base superior masculina - análisis de escalado bibásico.
     
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
@@ -649,7 +656,7 @@
       .col-lg-12.col-10
         figure(data-aos="fade-right").py-2
           .video.mb-1
-            iframe(width="1280" height="720" src="https://youtube.com/embed/2Aa8iCb_Zpo" title="mantenimiento de maquinaria y equipos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/O-_ANTDpnLg?si=HIjHgrHeyXx9ubry" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
           figcaption Nota. Adaptado de Análisis y construcción de cuadro de tallas masculino - dxt.
     
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
@@ -672,7 +679,7 @@
     
     .row.mb-5.align-items-center.justify-content-center
       .col-lg-10.col-md-12.col-12
-        .row.justify-content-center.align-items-center
+        .row.justify-content-center.align-items-center.mb-4
           .col-2
             .avatar
               img.img-a.img-t.d-none.d-lg-block(src="@/assets/curso/tema1/img7.svg")
@@ -716,10 +723,8 @@ export default {
     // variables de vue
     datosSlyder: [
       {
-        titulo:
-          'Never, never assume that what you have achieved is good enough',
-        texto:
-          'Your rapidograph pens are dried up, the x-acto blades in your bag are rusty, and your mind is dull. Stop clicking your mouse, get messy, go back to the basics and make something original.',
+        titulo: 'Ubicación en plano cartesiano:',
+        texto: ' punto de origen.',
         imagen: require('@/assets/curso/tema1/img33.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
