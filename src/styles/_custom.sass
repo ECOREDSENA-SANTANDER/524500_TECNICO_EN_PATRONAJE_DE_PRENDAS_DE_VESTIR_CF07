@@ -2,11 +2,24 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 35%
-    right: 50%
+    top: 21%
+    right: 53%
+    width: 61%
+.banner-principal .tarjeta 
+  img, svg 
+    display: block;
+    border-style: hidden;
+  figure, picture, img, svg 
+    margin: 0;
+    width: 90%;
+    max-width: 90%;
 
-
-
+.banner-principal .row 
+    justify-content: space-around;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
 
 .caja1
   background-color: #FEF5E5 
@@ -41,7 +54,8 @@
 .cajablanca
   background-color: #ffffff
   height: 30px
-
+.caja44
+  background-color: #FFEBAB
 .radi
   border-radius: 8px
 
@@ -89,6 +103,14 @@
     border-left: solid 50px;
     border-left-color: $color-primario;
     background-color: $color-primario;
+.titulo-sexto 
+    margin-bottom: 24px;
+    border-left: 6px solid;
+    padding: 5px 0 5px 15px;
+
+.fa-chevron-right:before 
+    content: url('../assets/curso/tema1/chevron.png')
+  
 .pri
   color: $color-primario
   font-weight: 900;
@@ -118,8 +140,8 @@
 
 .avatar
   position: relative
-  bottom: -51px
-  right: -5rem
+  bottom: -15px
+  right: -2.5rem
   z-index: 1
   @media (max-width: 1000px)
     display: none
@@ -155,3 +177,22 @@
 
 .bg11
   background: url('../assets/curso/tema1/bg11.png')
+
+.hei
+  position: relative;
+
+.mov 
+    position: relative;
+    top: -3.7%;
+    left: 27.5%;
+    height: 276px;
+    max-width: 328px;
+    z-index: 2;
+
+.move 
+    position: relative;
+    top: -4.7%;
+    left: 13.5%;
+    height: 294px;
+    max-width: 350px;
+    z-index: 2;

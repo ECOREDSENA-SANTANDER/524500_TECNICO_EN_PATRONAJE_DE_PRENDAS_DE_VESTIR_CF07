@@ -10,18 +10,15 @@
       h1 Introducción
     
     .row.justify-content-center 
-      .col-lg-9.col-md-12.col-12
-        .row.justify-content-center 
-          .col-lg-4.col-md-8.col-8 
-            img.mb-4(src='@/assets/curso/img1.png', alt='Proporción figura humana')
-          .col-lg-8.col-md-12.col-12 
-            .caja1.p-4 
-              p.mb-4.negro ¡Bienvenidos!
-              p.mb-4 En este componente se abordará 
-                strong todas las bases de fundamentación para llevar a cabo todo tipo de escalado
-                | , así mismo, se presenta las herramientas para trabajar los cuadros de tallas, atendiendo las diversas líneas femenina, masculina, adulto o  infantil, lo anterior permite atender la realización de trabajos personalizados o con requerimientos específicos, dependiendo siempre del tipo de cliente, marca o industria.
-
-
+      .col-lg-12.col-md-12.col-12
+        p.mb-4 En el siguiente video, se presenta la introducción al componente formativo, explicando de manera general las temáticas que serán tratadas: 
+    
+    .row.justify-content-center.align-items-center(data-aos="fade-left")
+      .col-lg-12.col-12.col-md-12
+        figure(data-aos="fade-right").py-2
+          .video.mb-1
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/ddrsedOxtKA?si=Y0XBIbjUFR2rxSNN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+          figcaption Nota. Adaptado de Escalado de falda.
 
 </template>
 
