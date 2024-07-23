@@ -1,25 +1,19 @@
 .banner-principal-decorativo
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
-    position: absolute
-    top: 21%
-    right: 53%
-    width: 61%
-.banner-principal .tarjeta 
-  img, svg 
-    display: block;
-    border-style: hidden;
-  figure, picture, img, svg 
-    margin: 0;
-    width: 90%;
-    max-width: 90%;
+    position: relative
+    top: 40%
+    right: 50%
+@keyframes float1
+  0%
+    transform: translateY(20px)
+  100%
+    transform: translateY(0px)
 
-.banner-principal .row 
-    justify-content: space-around;
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
-    display: flex;
-    flex-wrap: wrap;
+.banner-principal__img 
+  padding-top: 1.5rem;
+  right: -4.5%
+  position: relative
 
 .caja1
   background-color: #FEF5E5 
@@ -76,7 +70,10 @@
 .caja5
   background-color: #FEF5E5
   border-radius: 10px
-
+.caja5p
+  background-color: #FEF5E5
+  border-radius: 10px
+  position: relative
 .lista-ul--color li > i:first-of-type 
     color: #895CD8;
 
@@ -150,49 +147,55 @@
   background-color: #E2D7F8
   border-radius: 18px
 
-.tarjeta-slide.color-acento-contenido .tarjeta-slide__img 
-    background-color: #FFD54F;
+
     
 .tarjeta.color-primario * 
     color: #080808;
 
-.tarjeta-slide
-  height: 350px
-
-.tarjeta-slide__img 
-    position: absolute;
-    inset: 0;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat
-
-.lim 
-    position: absolute;
-    top: 84%;
-    right: 34%;
-
-.wid
-  top: 84%;
-  right: 34%;
 
 .bg11
   background: url('../assets/curso/tema1/bg11.png')
 
-.hei
-  position: relative;
 
-.mov 
-    position: relative;
-    top: -3.7%;
-    left: 27.5%;
-    height: 276px;
-    max-width: 328px;
-    z-index: 2;
+.ia
+  img
+    width: 30px
+  h2
+    color: #673AB7
+  &::after   
+    content: ""
+    display: block
+    height: 4px
+    width: 110px
+    background-color: #673AB7
 
-.move 
-    position: relative;
-    top: -4.7%;
-    left: 13.5%;
-    height: 294px;
-    max-width: 350px;
-    z-index: 2;
+
+.mnl-1
+  margin-right: -8.5% 
+  z-index: 9999
+  @media (max-width: 576px)
+    margin-right: 0px
+
+
+.mh-375
+  min-height: 360px 
+
+.mnl-2
+  margin-right: -9.5% 
+  z-index: 9999
+  @media (max-width: 576px)
+    margin-right: 0px
+
+.caja5pp 
+    background-color: #FEF5E5
+    border-radius: 10px
+    position: relative
+
+@media (min-width: 992px) 
+    .ps-lg-5.tr
+        padding-left: 3.5rem !important
+
+.caja5pw
+    background-color: #FEF5E5
+    border-radius: 5px
+    position: relative
