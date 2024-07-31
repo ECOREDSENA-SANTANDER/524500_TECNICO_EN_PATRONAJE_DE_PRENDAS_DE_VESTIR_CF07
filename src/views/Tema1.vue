@@ -12,12 +12,12 @@
         img(src='@/assets/curso/tema1/ia.svg', alt='')
         h2.mb-0.mx-2 Introducción y conceptualización - escalado
 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-5
       .col-lg-12.col-md-12.col-12
         .caja2.p-4
           .row.justify-content-center
             .col-lg-8.col-md-12.col-12
-              p.mb-4.negro.my-4 ¿Qué es el escalado?
+              h4.mb-4.negro.my-4 ¿Qué es el escalado?
               p.mb-0 Es el método o técnica implementada para ampliar o reducir proporcionalmente un patrón base, molde o trazo de una talla a otra. Las proporciones se identifican de acuerdo con el cuadro de tallas o medidas estandarizadas, para llevar a cabo un escalado se implementan planos cartesianos que permiten identificar puntos de referencia, en las medidas de largos, anchos y contornos con sus proporciones que se diferencian entre una talla y otra.
             .col-lg-3.col-md-8.col-8
               img.img-a.img-t(src='@/assets/curso/tema1/img1.svg', alt='tema1')
@@ -37,15 +37,15 @@
               img.img-a.img-t(src='@/assets/curso/tema1/img2.png', alt='tema1')
             .col-lg-7.col-md-12.col-12
               ul.lista-ul--color.f-1
-                li.mb-4
+                li.mb-4.d-flex
                   i.fas.fa-chevron-right
-                  | #[b La recta horizontal, ] es llamada eje de las abscisas o de las equis #[b (X)]
-                li.mb-4
+                  p.mb-0 #[b La recta horizontal, ] es llamada eje de las abscisas o de las equis #[b (X)]
+                li.mb-4.d-flex
                   i.fas.fa-chevron-right
-                  | #[b La recta vertical, ]  eje de las ordenadas o de las yes #[b (Y)]
-                li.mb-0
+                  p.mb-0 #[b La recta vertical, ]  eje de las ordenadas o de las yes #[b (Y)]
+                li.mb-0.d-flex
                   i.fas.fa-chevron-right
-                  | #[b El punto donde se cortan ] recibe el nombre de origen #[b (punto cero o punto muerto)]
+                  p.mb-0 #[b El punto donde se cortan ] recibe el nombre de origen #[b (punto cero o punto muerto)]
     
     p.mb-4 #[b El plano cartesiano tiene como finalidad describir la posición de puntos,] los cuales se representan por sus coordenadas o pares ordenados. Para la implementación del plano cartesiano trabajaremos con el #[b sistema de medidas de mayor dominio.]  
     
@@ -68,14 +68,14 @@
                 | al hablar de reducir o aumentar, podríamos acudir a los espacios negativos o positivos del plano cartesiano, según corresponda.
               .row.justify-content-center
                 .col-lg-6.col-md-6.col-12
-                  .caja2.rad.p-4
+                  .caja2.rad.p-4.mb-3
                     p.mb-3.negro.text-center Aumenta
                       .cajablanca.radi.mb-4
                         p.mb-4.negro.text-center Ancho: 3 - Largo: 1
                       .cajablanca.radi.mb-4
                         p.mb-4.negro.text-center Ancho: 1 - Largo: 3
                 .col-lg-6.col-md-6.col-12
-                  .caja2.rad.p-4
+                  .caja2.rad.p-4.mb-3
                     p.mb-3.negro.text-center Reduce
                       .cajablanca.radi.mb-4
                         p.mb-4.negro.text-center Ancho: -3 - Largo: -1
@@ -126,16 +126,16 @@
           .row.justify-content-center
             .col-lg-5.col-md-12.col-12
               ul.lista-ul--color
-                li.mb-0.my-3
+                li.mb-0.my-3.d-flex
                   i.fas.fa-chevron-right
-                  | La diferencia de #[b ancho] es 2 cm
+                  p.mb-0 La diferencia de #[b ancho] es 2 cm
             .col-lg-5.col-md-12.col-12
               ul.lista-ul--color
-                li.mb-0.my-3
+                li.mb-0.my-3.d-flex
                   i.fas.fa-chevron-right
-                  | La diferencia de #[b alto] es 2 cm
+                  p.mb-0 La diferencia de #[b alto] es 2 cm
     
-    .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
+    .row.align-items-center.justify-content-center.mb-5(data-aos="zoom-in-left")
       .col-lg-10.col-md-12.col-12
         .row.justify-content-center.align-items-center
           .col-2
@@ -161,17 +161,17 @@
           .row.justify-content-center
             .col-lg-5.col-md-12.col-12
               ul.lista-ul--color
-                li.mb-0.my-3
+                li.mb-0.my-3.d-flex
                   i.fas.fa-chevron-right
-                  | Aumento por largo eje #[b Y: 2 cm]
+                  p.mb-0 Aumento por largo eje #[b Y: 2 cm]
             .col-lg-5.col-md-12.col-12
               ul.lista-ul--color
-                li.mb-0.my-3
+                li.mb-0.my-3.d-flex
                   i.fas.fa-chevron-right
-                  | Aumento por ancho eje #[b X: 2 cm]
+                  p.mb-0 Aumento por ancho eje #[b X: 2 cm]
     p.mb-4 Puntos para tener en cuenta: en este caso, por el punto de origen y el incremento de la figura, no se contemplan puntos como negativos o positivos, únicamente los lados que deben aumentar.
     
-    .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-lg-10.col-md-12.col-12
         .fondo21.p-4.mb-2
           .row.justify-content-center.align-items-center
@@ -190,7 +190,7 @@
         img(src='@/assets/curso/tema1/ia.svg', alt='')
         h2.mb-0.mx-2 Conclusiones
     
-    .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-lg-12.col-md-12.col-12
         .row.justify-content-center.mb-0
           .col-lg-8.col-md-12.col-12
@@ -203,14 +203,14 @@
                   .row.justify-content-center
                     .col-lg-5.col-md-12.col-12
                       ul.lista-ul--color
-                        li.mb-0.my-3
+                        li.mb-0.my-3.d-flex
                           i.fas.fa-chevron-right
-                          | #[b Negativa:] reducción
+                          p.mb-0 #[b Negativa:] reducción
                     .col-lg-5.col-md-12.col-12
                       ul.lista-ul--color
-                        li.mb-0.my-3
+                        li.mb-0.my-3.d-flex
                           i.fas.fa-chevron-right
-                          | #[b Positiva:] aumento
+                          p.mb-0 #[b Positiva:] aumento
           
           .col-lg-4.col-md-8.col-8
             img.img-a.img-t.d-none.d-lg-block(src='@/assets/curso/tema1/img9.png', alt='tema1')
@@ -255,12 +255,12 @@
             .caja5p.p-4.ps-lg-5
               p.mb-0.ps-lg-5
               ul.lista-ul--color.my-3
-                li.mb-4.mx-4
+                li.mb-4.mx-4.d-flex
                   i.fas.fa-chevron-right
-                  | #[b Si sobre el plano se aplica la medida completa,] dicha medida equivale a una proporción, entonces una proporción será 2cm.
-                li.mb-0.mx-4
+                  p.mb-0 #[b Si sobre el plano se aplica la medida completa,] dicha medida equivale a una proporción, entonces una proporción será 2cm.
+                li.mb-0.mx-4.d-flex
                   i.fas.fa-chevron-right
-                  | #[b Si sobre el plano se aplica la mitad de la medida, ]  esto equivale a 1/2 proporción, 1/2 proporción será 1 cm.
+                  p.mb-0 #[b Si sobre el plano se aplica la mitad de la medida, ]  esto equivale a 1/2 proporción, 1/2 proporción será 1 cm.
     
         
     TabsC.color-primario.mb-4(data-aos="zoom-in-left")
@@ -270,15 +270,53 @@
             img.img-a.img-t(src='@/assets/curso/tema1/img41.svg', alt='')
           .col-lg-7.col-md-12.my-3
             p.mb-5 En este caso se aplica #[b una proporción] porque en el plano se está trabajando la medida total.
-            img.img-a.img-t(src='@/assets/curso/tema1/im11.jpg', alt='')
+            .row.justify-content-center
+              .col-lg-12.col-md-12
+                .tabla-c
+                  table
+                    tr
+                      th.text-center.bl.text-white.h4 #[b Medidas]
+                      th.text-center.bl.text-white.h4 #[b Dif. x talla]
+                      th.text-center.bl.text-white.h4 #[b Proporción]
+                      th.text-center.bl.text-white.h4 #[b Medida aplicar en escalado]
+                    tr
+                      th.text-center.bei Largo
+                      th.text-center.bei 2 cm
+                      th.text-center.bei Completa
+                      th.text-center.bei 2 cm
+                    tr
+                      th.text-center.ba Ancho
+                      th.text-center.ba 2 cm
+                      th.text-center.ba Completa
+                      th.text-center.ba 2 cm
             
+
+
       .py-3.py-md-4.bg26.px-3(titulo="Plano por mitad")
         .row.justify-content-center
           .col-lg-5.col-md-12.my-3
             img.img-a.img-t(src='@/assets/curso/tema1/img42.svg', alt='')
           .col-lg-7.col-md-12.my-3
             p.mb-5 En este caso en el ancho se debe aplicar 1/2 proporción, porque en el plano se está trabajando la mitad de la medida total.
-            img.img-a.img-t(src='@/assets/curso/tema1/im12.jpg', alt='')
+            .row.justify-content-center
+              .col-lg-12.col-md-12
+                .tabla-c
+                  table
+                    tr
+                      th.text-center.bl.text-white.h4 #[b Medidas]
+                      th.text-center.bl.text-white.h4 #[b Dif. x talla]
+                      th.text-center.bl.text-white.h4 #[b Proporción]
+                      th.text-center.bl.text-white.h4 #[b Medida aplicar en escalado]
+                    tr
+                      th.text-center.bei Largo
+                      th.text-center.bei 2 cm
+                      th.text-center.bei Completa
+                      th.text-center.bei 1 cm
+                    tr
+                      th.text-center.ba Ancho
+                      th.text-center.ba 2 cm
+                      th.text-center.ba 1/1
+                      th.text-center.ba 1 cm
           
     .row.justify-content-center.mb-4(data-aos="fade-right")
       .col-lg-12.col-md-12.col-12
@@ -288,21 +326,21 @@
               p.mt-4.negro Ejercicio de análisis 
               p.mb-4 Realice el #[b escalado de la siguiente figura] teniendo en cuenta:
               ul.lista-ul--color.f-1
-                li.mb-1
+                li.mb-1.d-flex
                   i.fas.fa-chevron-right
-                  | El cuadro de tallas asignado
-                li.mb-1
+                  p.mb-0 El cuadro de tallas asignado
+                li.mb-1.d-flex
                   i.fas.fa-chevron-right
-                  | Las diferencias entre talla y talla
-                li.mb-1
+                  p.mb-0 Las diferencias entre talla y talla
+                li.mb-1.d-flex
                   i.fas.fa-chevron-right
-                  | La talla base y las medidas
-                li.mb-1
+                  p.mb-0 La talla base y las medidas
+                li.mb-1.d-flex
                   i.fas.fa-chevron-right
-                  | La asignación de proporciones, según tipo de plano a trabajar
-                li.mb-1
+                  p.mb-0 La asignación de proporciones, según tipo de plano a trabajar
+                li.mb-1.d-flex
                   i.fas.fa-chevron-right
-                  | El punto de origen sobre el plano cartesiano y la ubicación de la figura
+                  p.mb-0 El punto de origen sobre el plano cartesiano y la ubicación de la figura
             .col-lg-5.col-md-8.col-8
               img.img-a.img-t(src='@/assets/curso/tema1/img12.svg', alt='tema1')
     
@@ -313,11 +351,99 @@
           | Cuadro de tallas asignado.
         img.img-a.img-t(data-aos="fade-right")(src='@/assets/curso/tema1/im12.svg', alt='la figura presenta el cuadro de tallas y adicionalmente un diagrama con la descripción de cada medida.')
 
-    .row.justify-content-center.align-items-center.mb-3(data-aos="fade-right")
-      .col-lg-5.col-md-12.col-12.mb-4 
-        img.img-a.img-t(src='@/assets/curso/tema1/im13.jpg', alt='')
-      .col-lg-5.col-md-12.col-12.mb-4 
-        img.img-a.img-t(src='@/assets/curso/tema1/im14.jpg', alt='')
+            
+    .row.justify-content-center.mb-5
+      .col-lg-6.col-md-12
+        .tabla-c
+          table
+            tr
+              th.wid.text-center.bl.text-white.h4.wi #[b Medidas]
+              th.wid.text-center.bl.text-white.h4.wi #[b XS]
+              th.wid.text-center.bl.text-white.h4.wi #[b S]
+              th.wid.text-center.bl.text-white.h4.wi #[b M]
+              th.wid.text-center.bl.text-white.h4.wi #[b L]
+              th.wid.text-center.bl.text-white.h4.wi #[b XL]
+            tr
+              th.text-center.bla Largo T.
+              th.text-center.bla 5.5
+              th.text-center.bla 6
+              th.text-center.bla 6.5
+              th.text-center.bla 7
+              th.text-center.bla 7.5
+            tr
+              th.text-center.ba Largo 1
+              th.text-center.ba 2
+              th.text-center.ba 2.25
+              th.text-center.ba 2.5
+              th.text-center.ba 2.75
+              th.text-center.ba 3
+            tr
+              th.text-center.bla Largo 2
+              th.text-center.bla 3.5
+              th.text-center.bla 3.75
+              th.text-center.bla 4
+              th.text-center.bla 4.25
+              th.text-center.bla 4.5
+            tr
+              th.text-center.ba A.a
+              th.text-center.ba 3
+              th.text-center.ba 5
+              th.text-center.ba 7
+              th.text-center.ba 9
+              th.text-center.ba 11
+            tr
+              th.text-center.bla B.b
+              th.text-center.bla 6
+              th.text-center.bla 8
+              th.text-center.bla 10
+              th.text-center.bla 12
+              th.text-center.bla 14
+            tr
+              th.text-center.ba A.c
+              th.text-center.ba 5
+              th.text-center.ba 7
+              th.text-center.ba 9
+              th.text-center.ba 11
+              th.text-center.ba 13
+
+      .col-lg-6.col-md-12
+        .tabla-c
+          table
+            tr
+              th.wid.text-center.bl.text-white.h4.lop #[b Medidas]
+              th.wid.text-center.bl.text-white.h4.lop #[b Dif. x talla]
+              th.wid.text-center.bl.text-white.h4.lop #[b Prop. x medida]
+              th.wid.text-center.bl.text-white.h4.lop #[b Medida aplicar en escalado]
+            tr
+              th.text-center.bla Largo T.
+              th.text-center.bla 0.5 cm
+              th.text-center.bla 1 proporción
+              th.text-center.bla 0.25 cm
+            tr
+              th.text-center.ba Largo 1
+              th.text-center.ba 0.25 cm
+              th.text-center.ba 1 proporción
+              th.text-center.ba 0.25 cm
+            tr
+              th.text-center.bla Largo 2
+              th.text-center.bla 0.25 cm
+              th.text-center.bla 1 proporción
+              th.text-center.bla 0.25 cm
+            tr
+              th.text-center.ba A.a
+              th.text-center.ba 2 cm
+              th.text-center.ba 1/2 proporción
+              th.text-center.ba 1 cm
+            tr
+              th.text-center.bla B.b
+              th.text-center.bla 2 cm
+              th.text-center.bla 1/2 proporción
+              th.text-center.bla 1 cm
+            tr
+              th.text-center.ba A.c
+              th.text-center.ba 2 cm
+              th.text-center.ba 1/2 proporción
+              th.text-center.ba 1 cm
     
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
       .col-lg-12.col-md-12.col-12            
@@ -332,7 +458,7 @@
               p.mb-4.my-5 En este caso que el punto de origen está en un punto que divide el largo total.
               p.mb-2 Se debe tomar la proporción y aplicar mitad hacia arriba - mitad hacia abajo para el largo total y no perder la proporción de la figura.
 
-    .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12.col-md-12.col-12            
         .caja5.p-4
           .row.justify-content-center.align-items-center.mb-0
@@ -435,7 +561,7 @@
                 span Descargar
                 i.fas.fa-file-download
 
-    .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-lg-10.col-md-12.col-12
         .fondo21.p-4.mb-2
           .row.justify-content-center.align-items-center
@@ -465,7 +591,7 @@
 
     p.mb-4(data-aos="fade-right") A continuación, se presentan ejemplos de escalado en diferentes prendas, cabe resaltar que para iniciar el proceso de escalado es necesario tener en cuenta una serie de operaciones previas como lo son:
     
-    .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
       .col-lg-9.col-md-12.col-12
         .row.align-items-center
           .col-lg-4.mnl-2.d-none.d-lg-block(data-aos="fade-left")
@@ -474,28 +600,28 @@
             .caja5pw.p-3.ps-lg-5
               p.mb-0.ps-lg-5.tr
               ul.lista-ul--color.f-1.my-0
-                li.mb-0.mx-4
+                li.mb-0.mx-4.d-flex
                   i.fas.fa-chevron-right
                   | Definir la metodología y lógica de construcción de la prenda.
-                li.mb-0.mx-4
+                li.mb-0.mx-4.d-flex
                   i.fas.fa-chevron-right
                   | Conocer la pieza que se va a escalar.
-                li.mb-0.mx-4
+                li.mb-0.mx-4.d-flex
                   i.fas.fa-chevron-right
                   | Definir si es un básico o es un desarrollo de diseño.
-                li.mb-0.mx-4
+                li.mb-0.mx-4.d-flex
                   i.fas.fa-chevron-right
                   | Definir si se va a incluir margen de costura.
-                li.mb-0.mx-4
+                li.mb-0.mx-4.d-flex
                   i.fas.fa-chevron-right
                   | Definir el tipo de escalado que se va a trabajar.
-                li.mb-0.mx-4
+                li.mb-0.mx-4.d-flex
                   i.fas.fa-chevron-right
                   | Analizar el cuadro de tallas.
-                li.mb-0.mx-4
+                li.mb-0.mx-4.d-flex
                   i.fas.fa-chevron-right.mb-0
                   | Analizar la diferencia por talla e identificar la medida a aplicar en el escalado.
-                li.mb-0.mx-4
+                li.mb-0.mx-4.d-flex
                   i.fas.fa-chevron-right.mb-0
                   | Analizar los puntos de escalado que se van a referenciar o modificar.
   

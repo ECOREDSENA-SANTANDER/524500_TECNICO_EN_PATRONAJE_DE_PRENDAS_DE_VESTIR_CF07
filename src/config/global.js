@@ -4,7 +4,7 @@ export default {
     descripcionCurso:
       'Al  finalizar todo el proceso de patronaje hasta el punto de prototipado se lleva a cabo el proceso de escalado, este se realiza después de la verificación y validación de los moldes que se quieren trabajar, el escalado se puede trabajar de manera digital o manual, en cualquiera de los dos casos siempre se debe tener como punto de partida el cuadro de tallas para poder hacer el análisis detallado de las prendas, cada empresa, marca o industria trabaja medidas, análisis y cuadros de tallas diferentes, lo que hace necesario el reconocimiento de estas.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     /*imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
@@ -129,16 +129,6 @@ export default {
       tipo: 'Documento',
       link:
         'https://drive.google.com/file/d/1GnLvwC-1bOnwNcVlXfKcsaA3PzQ4x1lW/view?usp=sharing',
-    },
-  ],
-  glosario: [
-    {
-      termino: 'Término',
-      significado: 'Texto de la definición',
-    },
-    {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
     },
   ],
   referencias: [
