@@ -272,23 +272,26 @@
             p.mb-5 En este caso se aplica #[b una proporción] porque en el plano se está trabajando la medida total.
             .row.justify-content-center
               .col-lg-12.col-md-12
-                .tabla-c
-                  table
-                    tr
-                      th.text-center.bl.text-white.h4 #[b Medidas]
-                      th.text-center.bl.text-white.h4 #[b Dif. x talla]
-                      th.text-center.bl.text-white.h4 #[b Proporción]
-                      th.text-center.bl.text-white.h4 #[b Medida aplicar en escalado]
-                    tr
-                      th.text-center.bei Largo
-                      th.text-center.bei 2 cm
-                      th.text-center.bei Completa
-                      th.text-center.bei 2 cm
-                    tr
-                      th.text-center.ba Ancho
-                      th.text-center.ba 2 cm
-                      th.text-center.ba Completa
-                      th.text-center.ba 2 cm
+                .tabla-a.tabla-peque(alt='La tabla expone los resultados de aplicar las fórmulas para diferentes medidas corporales a partir de una estatura total de 1.70 m y un tórax máximo de 90 cm. La cadera se calcula sumando 8 cm al tórax máximo, resultando en 98 cm. El pecho se obtiene restando 4 cm al tórax máximo, dando 86 cm. La cintura se determina restando 28 cm de la medida de la cadera, resultando en 70 cm. La estatura 7a cervical útil se calcula restando 20 cm de la estatura total, resultando en 1.50 m. Finalmente, el largo de brazo se calcula como 4/10 de la estatura 7aC, que resulta en 60 cm. ')
+                  table.text-center
+                    thead
+                      tr.bl
+                        th.text-white.h4 #[b Medidas]
+                        th.text-white.h4 #[b Dif. x talla]
+                        th.text-white.h4 #[b Proporción]
+                        th.text-white.h4 #[b Medida aplicar en escalado]
+                    tbody
+                      tr.p-1
+                        td.text-center Largo
+                        td.text-center 2 cm
+                        td.text-center Completa
+                        td.text-center 2 cm
+
+                      tr.p-1
+                        td.text-center.ba Ancho
+                        td.text-center.ba 2 cm
+                        td.text-center.ba Completa
+                        td.text-center.ba 2 cm
             
 
 
@@ -300,23 +303,26 @@
             p.mb-5 En este caso en el ancho se debe aplicar 1/2 proporción, porque en el plano se está trabajando la mitad de la medida total.
             .row.justify-content-center
               .col-lg-12.col-md-12
-                .tabla-c
-                  table
-                    tr
-                      th.text-center.bl.text-white.h4 #[b Medidas]
-                      th.text-center.bl.text-white.h4 #[b Dif. x talla]
-                      th.text-center.bl.text-white.h4 #[b Proporción]
-                      th.text-center.bl.text-white.h4 #[b Medida aplicar en escalado]
-                    tr
-                      th.text-center.bei Largo
-                      th.text-center.bei 2 cm
-                      th.text-center.bei Completa
-                      th.text-center.bei 1 cm
-                    tr
-                      th.text-center.ba Ancho
-                      th.text-center.ba 2 cm
-                      th.text-center.ba 1/1
-                      th.text-center.ba 1 cm
+                .tabla-a.tabla-peque(alt='La tabla expone los resultados de aplicar las fórmulas para diferentes medidas corporales a partir de una estatura total de 1.70 m y un tórax máximo de 90 cm. La cadera se calcula sumando 8 cm al tórax máximo, resultando en 98 cm. El pecho se obtiene restando 4 cm al tórax máximo, dando 86 cm. La cintura se determina restando 28 cm de la medida de la cadera, resultando en 70 cm. La estatura 7a cervical útil se calcula restando 20 cm de la estatura total, resultando en 1.50 m. Finalmente, el largo de brazo se calcula como 4/10 de la estatura 7aC, que resulta en 60 cm. ')
+                  table.text-center
+                    thead
+                      tr.bl
+                        th.text-white.h4 #[b Medidas]
+                        th.text-white.h4 #[b Dif. x talla]
+                        th.text-white.h4 #[b Proporción]
+                        th.text-white.h4 #[b Medida aplicar en escalado]
+                    tbody
+                      tr.p-1
+                        td.text-center Largo
+                        td.text-center 2 cm
+                        td.text-center Completa
+                        td.text-center 1 cm
+
+                      tr.p-1
+                        td.text-center.ba Ancho
+                        td.text-center.ba 2 cm
+                        td.text-center.ba 1/1
+                        td.text-center.ba 1 cm
           
     .row.justify-content-center.mb-4(data-aos="fade-right")
       .col-lg-12.col-md-12.col-12
@@ -352,98 +358,102 @@
         img.img-a.img-t(data-aos="fade-right")(src='@/assets/curso/tema1/im12.svg', alt='la figura presenta el cuadro de tallas y adicionalmente un diagrama con la descripción de cada medida.')
 
             
-    .row.justify-content-center.mb-5
-      .col-lg-6.col-md-12
-        .tabla-c
-          table
-            tr
-              th.wid.text-center.bl.text-white.h4.wi #[b Medidas]
-              th.wid.text-center.bl.text-white.h4.wi #[b XS]
-              th.wid.text-center.bl.text-white.h4.wi #[b S]
-              th.wid.text-center.bl.text-white.h4.wi #[b M]
-              th.wid.text-center.bl.text-white.h4.wi #[b L]
-              th.wid.text-center.bl.text-white.h4.wi #[b XL]
-            tr
-              th.text-center.bla Largo T.
-              th.text-center.bla 5.5
-              th.text-center.bla 6
-              th.text-center.bla 6.5
-              th.text-center.bla 7
-              th.text-center.bla 7.5
-            tr
-              th.text-center.ba Largo 1
-              th.text-center.ba 2
-              th.text-center.ba 2.25
-              th.text-center.ba 2.5
-              th.text-center.ba 2.75
-              th.text-center.ba 3
-            tr
-              th.text-center.bla Largo 2
-              th.text-center.bla 3.5
-              th.text-center.bla 3.75
-              th.text-center.bla 4
-              th.text-center.bla 4.25
-              th.text-center.bla 4.5
-            tr
-              th.text-center.ba A.a
-              th.text-center.ba 3
-              th.text-center.ba 5
-              th.text-center.ba 7
-              th.text-center.ba 9
-              th.text-center.ba 11
-            tr
-              th.text-center.bla B.b
-              th.text-center.bla 6
-              th.text-center.bla 8
-              th.text-center.bla 10
-              th.text-center.bla 12
-              th.text-center.bla 14
-            tr
-              th.text-center.ba A.c
-              th.text-center.ba 5
-              th.text-center.ba 7
-              th.text-center.ba 9
-              th.text-center.ba 11
-              th.text-center.ba 13
+    .row.justify-content-center
+      .col-lg-6.col-md-12.mb-4
+        .tabla-a.tabla-peque(alt='La tabla expone los resultados de aplicar las fórmulas para diferentes medidas corporales a partir de una estatura total de 1.70 m y un tórax máximo de 90 cm. La cadera se calcula sumando 8 cm al tórax máximo, resultando en 98 cm. El pecho se obtiene restando 4 cm al tórax máximo, dando 86 cm. La cintura se determina restando 28 cm de la medida de la cadera, resultando en 70 cm. La estatura 7a cervical útil se calcula restando 20 cm de la estatura total, resultando en 1.50 m. Finalmente, el largo de brazo se calcula como 4/10 de la estatura 7aC, que resulta en 60 cm. ')
+          table.text-center
+            thead.ru
+              tr.bl
+                th.text-white.h4 #[b Medidas]
+                th.text-white.h4 #[b XS]
+                th.text-white.h4 #[b S]
+                th.text-white.h4 #[b M]
+                th.text-white.h4 #[b L]
+                th.text-white.h4 #[b XL]
+            tbody
+              tr.p-1
+                td.text-center.bla Largo T.
+                td.text-center.bla 5.5
+                td.text-center.bla 6
+                td.text-center.bla 6.5
+                td.text-center.bla 7
+                td.text-center.bla 7.5
+              tr.p-1
+                td.text-center.ba Largo 1
+                td.text-center.ba 2
+                td.text-center.ba 2.25
+                td.text-center.ba 2.5
+                td.text-center.ba 2.75
+                td.text-center.ba 3
+              tr
+                td.text-center.bla Largo 2
+                td.text-center.bla 3.5
+                td.text-center.bla 3.75
+                td.text-center.bla 4
+                td.text-center.bla 4.25
+                td.text-center.bla 4.5
+              tr
+                td.text-center.ba A.a
+                td.text-center.ba 3
+                td.text-center.ba 5
+                td.text-center.ba 7
+                td.text-center.ba 9
+                td.text-center.ba 11
+              tr
+                td.text-center.bla B.b
+                td.text-center.bla 6
+                td.text-center.bla 8
+                td.text-center.bla 10
+                td.text-center.bla 12
+                td.text-center.bla 14
+              tr
+                td.text-center.ba A.c
+                td.text-center.ba 5
+                td.text-center.ba 7
+                td.text-center.ba 9
+                td.text-center.ba 11
+                td.text-center.ba 13
 
-      .col-lg-6.col-md-12
-        .tabla-c
-          table
+      .col-lg-6.col-md-12.mb-4
+        .tabla-a.tabla-peque(alt='La tabla expone los resultados de aplicar las fórmulas para diferentes medidas corporales a partir de una estatura total de 1.70 m y un tórax máximo de 90 cm. La cadera se calcula sumando 8 cm al tórax máximo, resultando en 98 cm. El pecho se obtiene restando 4 cm al tórax máximo, dando 86 cm. La cintura se determina restando 28 cm de la medida de la cadera, resultando en 70 cm. La estatura 7a cervical útil se calcula restando 20 cm de la estatura total, resultando en 1.50 m. Finalmente, el largo de brazo se calcula como 4/10 de la estatura 7aC, que resulta en 60 cm. ')
+          table.text-center
+            thead
+              tr.bl
+                th.text-white.h4 #[b Medidas]
+                th.text-white.h4 #[b Dif. x talla]
+                th.text-white.h4 #[b Prop. x medida]
+                th.text-white.h4 #[b Medida aplicar en escalado]
+            tbody
             tr
-              th.wid.text-center.bl.text-white.h4.lop #[b Medidas]
-              th.wid.text-center.bl.text-white.h4.lop #[b Dif. x talla]
-              th.wid.text-center.bl.text-white.h4.lop #[b Prop. x medida]
-              th.wid.text-center.bl.text-white.h4.lop #[b Medida aplicar en escalado]
+              td.text-center.bla Largo T.
+              td.text-center.bla 0.5 cm
+              td.text-center.bla 1 proporción
+              td.text-center.bla 0.25 cm
             tr
-              th.text-center.bla Largo T.
-              th.text-center.bla 0.5 cm
-              th.text-center.bla 1 proporción
-              th.text-center.bla 0.25 cm
+              td.text-center.ba Largo 1
+              td.text-center.ba 0.25 cm
+              td.text-center.ba 1 proporción
+              td.text-center.ba 0.25 cm
             tr
-              th.text-center.ba Largo 1
-              th.text-center.ba 0.25 cm
-              th.text-center.ba 1 proporción
-              th.text-center.ba 0.25 cm
+              td.text-center.bla Largo 2
+              td.text-center.bla 0.25 cm
+              td.text-center.bla 1 proporción
+              td.text-center.bla 0.25 cm
             tr
-              th.text-center.bla Largo 2
-              th.text-center.bla 0.25 cm
-              th.text-center.bla 1 proporción
-              th.text-center.bla 0.25 cm
+              td.text-center.ba A.a
+              td.text-center.ba 2 cm
+              td.text-center.ba 1/2 proporción
+              td.text-center.ba 1 cm
             tr
-              th.text-center.ba A.a
-              th.text-center.ba 2 cm
-              th.text-center.ba 1/2 proporción
-              th.text-center.ba 1 cm
+              td.text-center.bla B.b
+              td.text-center.bla 2 cm
+              td.text-center.bla 1/2 proporción
+              td.text-center.bla 1 cm
             tr
-              th.text-center.bla B.b
-              th.text-center.bla 2 cm
-              th.text-center.bla 1/2 proporción
-              th.text-center.bla 1 cm
-            tr
-              th.text-center.ba A.c
-              th.text-center.ba 2 cm
-              th.text-center.ba 1/2 proporción
-              th.text-center.ba 1 cm
+              td.text-center.ba A.c
+              td.text-center.ba 2 cm
+              td.text-center.ba 1/2 proporción
+              td.text-center.ba 1 cm
     
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
       .col-lg-12.col-md-12.col-12            
