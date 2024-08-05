@@ -207,13 +207,13 @@ export default {
         },
         {
           nombre: 'Natalia Andrea Bueno Pizarro',
-          cargo: 'Diseñadora y evaluadora instruccional',
+          cargo: 'Diseñadora y Evaluadora Instruccional',
           centro:
             'Distrito Capital – Centro para La Industria de la Comunicación Gráfica',
         },
         {
           nombre: 'Julia Isabel Roberto',
-          cargo: 'Diseñadora y evaluadora instruccional',
+          cargo: 'Diseñadora y Evaluadora Instruccional',
           centro:
             'Distrito Capital – Centro para La Industria de la Comunicación Gráfica',
         },
