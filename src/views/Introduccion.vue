@@ -17,8 +17,8 @@
       .col-lg-12.col-12.col-md-12
         figure(data-aos="fade-right").py-2
           .video.mb-1
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/ddrsedOxtKA?si=Y0XBIbjUFR2rxSNN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-          figcaption Nota. Adaptado de Escalado de falda.
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/Iz0S59Naybs?si=EJEUKw20vHInM4Yk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+          figcaption Video. Escalado digital
 
 </template>
 

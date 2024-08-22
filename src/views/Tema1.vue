@@ -645,8 +645,8 @@
       .col-lg-12.col-12.col-md-12
         figure(data-aos="fade-right").py-2
           .video.mb-1
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/ddrsedOxtKA?si=lxgh6hmxpctaTnJG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-          figcaption Nota. Adaptado de Escalado de falda.
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/-YYkMqxaJfg?si=tntlvF1mIUOoNlqB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+          figcaption Video. Escalado De Falda Femenino
     
     .row.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-left")
       .col-lg-10.col-md-12.col-12
@@ -682,8 +682,8 @@
       .col-lg-12.col-12
         figure(data-aos="fade-right").py-2
           .video.mb-1
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/ui7cNs-qD1k?si=WtpKeiKpzwlh7tTm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-          figcaption Nota. Adaptado de Escalado de base con pinzas - superior.
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/5w_UnxRLOBQ?si=e2QvetrlparUOtWa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+          figcaption Video. Escalado De Base Con Pinzas Superior
     
     .row.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-left")
       .col-lg-10.col-md-12.col-12
@@ -713,8 +713,8 @@
       .col-lg-12.col-12
         figure(data-aos="fade-right").py-2
           .video.mb-1
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/GS5jZ-Tw9vc?si=luGtVFPEO-usurfw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-          figcaption Nota. Adaptado de Escalado de básico de pantalón.
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/sgGEl_vjJTc?si=EcXiXWbOoh3GVwDr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+          figcaption Video. ESCALADO DE BÁSICO DE PANTALÓN
     
     .row.justify-content-center.align-items-center(data-aos="zoom-in-left")
       .col-lg-10.col-md-12.col-12
@@ -745,8 +745,8 @@
       .col-lg-12.col-12
         figure(data-aos="fade-right").py-2
           .video.mb-1
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/5r4mM6naN40?si=yOt5PK_kWbz_4EkW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-          figcaption Nota. Adaptado de Escalado cortes, manga, cuello.
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/_GM6Ni5lDW8?si=muadyKU5HtcWPxaU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+          figcaption Video. Cortes manga cuello escalado
     
     .row.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-left")
       .col-lg-10.col-md-12.col-12
@@ -781,8 +781,8 @@
       .col-lg-12.col-12
         figure(data-aos="fade-right").py-2
           .video.mb-1
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/mN8946qBeGU?si=EqMJcswapDIP2YV5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-          figcaption Nota. Adaptado de Escalado base superior masculina - análisis de escalado bibásico.
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/pMZ7Uxb1cl8?si=I_eNzxV9nGJrEgrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+          figcaption Video. Base Superior Masculina Análisis De Escalado Bibásico
     
     Separador 
     #t_1_6.titulo-segundo.mb-5
@@ -800,8 +800,8 @@
       .col-lg-12.col-12
         figure(data-aos="fade-right").py-2
           .video.mb-1
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/O-_ANTDpnLg?si=HIjHgrHeyXx9ubry" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-          figcaption Nota. Adaptado de Análisis y construcción de cuadro de tallas masculino - dxt.
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/KcHaLNoyFVI?si=jHAmhuKiAFODs9Nx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+          figcaption Video. Análisis Y Construcción De Cuadro De Tallas Masculino Dxt Escalado
     
     .row.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-left")
       .col-lg-10.col-md-12.col-12
@@ -840,8 +840,8 @@
       .col-lg-12.col-12
         figure(data-aos="fade-right").py-2
           .video.mb-1
-            iframe(width="1280" height="720" src="https://youtube.com/embed/2Aa8iCb_Zpo" title="mantenimiento de maquinaria y equipos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Nota. Adaptado de Modificación de moldes - Análisis sobre medidas.
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/AD1BNSkDZOY?si=53iUJctgMarEzq_f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+          figcaption Video. Modificación De Moldes Análisis Sobre Medidas
 
 </template>
 

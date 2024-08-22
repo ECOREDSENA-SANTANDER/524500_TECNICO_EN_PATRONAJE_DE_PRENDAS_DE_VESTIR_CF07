@@ -15,8 +15,8 @@
 
     figure.mb-4
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/NdZGHw_-8bA?si=mGJt8qrPyO536B-2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-      figcaption Video: Leyenda del video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/fbK-zaZa4d4?si=i-nYW7KgTXeRdhp7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+      figcaption Video. ESCALADO EN OPTITEX
     
     
     .row.justify-content-center.align-items-center(data-aos="zoom-in-left")
@@ -27,7 +27,7 @@
               img.mx-1.img-a.img-t.d-none.d-lg-block(src="@/assets/curso/tema2/img2.svg", alt="tema 2")
             .col-lg-9.col-md-12.col-12
               h4.mb-1.text-white Escalado en Optitex
-              p.mb-2.text-white Revisa el documento que pueden resultar útil  para aprender más sobre el escalado en Optitex.
+              p.mb-2.text-white Revisa el video que puede resultar útil  para aprender más sobre el escalado en Optitex.
             .col-lg-2.col-md-12.col-12
               a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=V81Fjuq8XWs" target="_blank")
                 span Descargar
