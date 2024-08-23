@@ -337,10 +337,10 @@
                   p.mb-0 El cuadro de tallas asignado
                 li.mb-1.d-flex
                   i.fas.fa-chevron-right
-                  p.mb-0 Las diferencias entre talla y talla
+                  p.mb-0 La talla base y las medidas
                 li.mb-1.d-flex
                   i.fas.fa-chevron-right
-                  p.mb-0 La talla base y las medidas
+                  p.mb-0 Las diferencias entre talla y talla
                 li.mb-1.d-flex
                   i.fas.fa-chevron-right
                   p.mb-0 La asignación de proporciones, según tipo de plano a trabajar
@@ -565,7 +565,7 @@
               img.mx-1.img-a.img-t.d-none.d-lg-block(src="@/assets/curso/tema1/img20.svg", alt="tema 2")
             .col-lg-9.col-md-12.col-12
               h4.mb-1.text-white Cuadro de tallas femeninas
-              p.mb-2.text-white Revisa el documento que pueden resultar útil  para aprender más sobre el cuadro de tallas femeninas.
+              p.mb-2.text-white Revisa el documento que pueden resultar útil  para aprender más sobre el cuadro de tallas femeninas. (Revisar página 20).
             .col-lg-2.col-md-12.col-12
               a.boton.color-acento-botones(href="https://www.scribd.com/document/279036173/Manual-de-Patronaje-Basico-Sena" target="_blank")
                 span Descargar
@@ -579,7 +579,7 @@
               img.mx-1.img-a.img-t.d-none.d-lg-block(src="@/assets/curso/tema1/img21.svg", alt="tema 2")
             .col-lg-9.col-md-12.col-12
               h4.mb-1.text-white Tallas de 6 a 14
-              p.mb-2.text-white Revisa el documento que pueden resultar útil  para aprender más sobre las Tallas de 6 a 14. 
+              p.mb-2.text-white Revisa el documento que pueden resultar útil  para aprender más sobre las Tallas de 6 a 14. (Revisar página 84).
             .col-lg-2.col-md-12.col-12
               a.boton.color-acento-botones(href="https://www.scribd.com/document/279036173/Manual-de-Patronaje-Basico-Sena" target="_blank")
                 span Descargar
@@ -589,15 +589,6 @@
       .d-flex.align-items-center.mb-1
         img(src='@/assets/curso/tema1/ia.svg', alt='')
         h2.mb-0.mx-2 Procedimiento de escalado
-
-    .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
-      .col-lg-12.col-md-12.col-12
-        .caja44.p-3
-          .row.justify-content-center.align-items-center
-            .col-lg-3.col-md-8.col-8
-              img.img-a.img-t.d-none.d-lg-block.mt-3(src='@/assets/curso/tema1/img3.svg', alt='tema1')
-            .col-lg-8.col-md-12.col-12
-              p.mb-0 Si son prendas básicos o desarrollo de diseños, si se incluye o no margen de costura y las validaciones necesarias como producto final o insumo en el caso de básico para el desarrollo de otros modelos o análisis de tallaje, se trabaja el escalado en diferentes tallas propuestas, de igual manera se debe tener en cuenta el tipo de escalado que se va a trabajar, los aumentos y disminuciones por talla.
 
     p.mb-4(data-aos="fade-right") A continuación, se presentan ejemplos de escalado en diferentes prendas, cabe resaltar que para iniciar el proceso de escalado es necesario tener en cuenta una serie de operaciones previas como lo son:
     
@@ -756,7 +747,7 @@
               img.mx-1.img-a.img-t.d-none.d-lg-block(src="@/assets/curso/tema1/img27.svg", alt="tema 2")
             .col-lg-9.col-md-12.col-12
               h4.mb-1.text-white Escalado cortes, manga, cuello
-              p.mb-2.text-white Revisa el documento que pueden resultar útil  para aprender más sobre el escalado cortes, manga, cuello.
+              p.mb-2.text-white Revisa el documento (análisis del escalado de acuerdo al cuadro de tallas) que pueden resultar útil  para aprender más sobre el escalado cortes, manga, cuello. 
             .col-lg-2.col-md-12.col-12
               a.boton.color-acento-botones(:href="obtenerLink('/downloads/Escalado_de_base_con_pinzas_superior.pdf')" target="_blank")
                 span Descargar
@@ -786,7 +777,7 @@
     
     Separador 
     #t_1_6.titulo-segundo.mb-5
-      h2 1.6 Análisis y construcción de cuadro de tallas masculino - dxt
+      h2 1.6 Análisis y construcción de cuadro de tallas masculino - dxt escalado
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-4.col-md-8.col-8
@@ -810,7 +801,7 @@
             .col-lg-1.col-md-12.col-12
               img.mx-1.img-a.img-t.d-none.d-lg-block(src="@/assets/curso/tema1/img31.svg", alt="tema 2")
             .col-lg-9.col-md-12.col-12
-              h4.mb-1.text-white(data-aos="zoom-in-left") Análisis y construcción de cuadro de tallas masculino - dxt
+              h4.mb-1.text-white(data-aos="zoom-in-left") Análisis y construcción de cuadro de tallas masculino - dxt escalado
               p.mb-2.text-white(data-aos="zoom-in-left") Revisa el documento que pueden resultar útil  para aprender más sobre el análisis y construcción de cuadro de tallas masculino.
             .col-lg-2.col-md-12.col-12
               a.boton.color-acento-botones(:href="obtenerLink('/downloads/Análisis_y _construcción_de_cuadro_de_tallas_masculino.pdf')" target="_blank")
