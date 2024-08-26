@@ -553,7 +553,7 @@
       .col-lg-8.col-md-12.col-12
         .caja2.rad.p-4
           p.mb-0 El análisis de los anteriores dará como resultado: 
-            strong valores – proporciones - rupturas de talla
+            strong valores – proporciones - rupturas de talla.
     
     p.mb-4 En este caso se hace el análisis desde la talla base hasta la ruptura, identificando las medidas aplicar en el escalado del patrón base.
 
