@@ -62,7 +62,7 @@
               img.img-a.img-t.d-none.d-lg-block(src='@/assets/curso/tema1/img3.svg', alt='tema1')
             .col-lg-7.col-md-12.col-12
               p.mb-4.negro Ejemplo:
-              p.mb-4 #[em #[b Considerando que el ancho es representado por la línea X, y el largo por la línea Y.]]
+              p.mb-4 #[b Considerando que el ancho es representado por la línea X, y el largo por la línea Y.]
               p.mb-4 Si tomamos como punto de partida 
                 strong el punto de origen 
                 | al hablar de reducir o aumentar, podríamos acudir a los espacios negativos o positivos del plano cartesiano, según corresponda.
@@ -102,7 +102,7 @@
             .caja31.p-3
               img.img-a.img-t(src='@/assets/curso/tema1/img6.svg', alt='tema1')
 
-    p.mb-4 Para entender cómo funciona el escalado desde el  plano cartesiano, se toma como referencia un cuadrado, el cual es e molde base o talla base a trabajar, su ubicación en el plano se presenta en la siguiente figura:
+    p.mb-4 Para entender cómo funciona el escalado desde el  plano cartesiano, se toma como referencia un cuadrado, el cual es el molde base o talla base a trabajar, su ubicación en el plano se presenta en la siguiente figura:
     
     .row.justify-content-center(data-aos="zoom-in-left")
       .col-lg-4.col-md-12.col-12.mb-4
@@ -354,7 +354,7 @@
       .col-lg-4.col-md-12.col-12.mb-4
         .titulo-sexto.color-secundario
           h5 Figura 4. 
-          | Cuadro de tallas asignado.
+          | Cuadro de tallas asignado
         img.img-a.img-t(data-aos="fade-right")(src='@/assets/curso/tema1/im12.svg', alt='la figura presenta el cuadro de tallas y adicionalmente un diagrama con la descripción de cada medida.')
 
             
@@ -502,7 +502,7 @@
                 p #[b Simple o relativo/diferencial:] se aplica cuando los incrementos de tallas varían dentro de la serie ejemplo, no se produce incremento de estatura, solo anchos.
               li.mb-0.d-flex.mx-0
                 i.fas.fa-chevron-right
-                p #[b Compuesto o absoluto propocional:] los incrementos entre tallas se mantienen constantes en toda la serie, por ejemplo, se produce incremento de estatura, se aumenta anchos y largos, llamado también escalado de crecimiento real.
+                p #[b Compuesto o absoluto proporcional:] los incrementos entre tallas se mantienen constantes en toda la serie, por ejemplo, se produce incremento de estatura, se aumenta anchos y largos, llamado también escalado de crecimiento real.
       .py-3.py-md-4.bg26.px-3(titulo="Escalado bibásico")
         .row.justify-content-center
           .col-lg-4.col-md-8.col-8.my-3

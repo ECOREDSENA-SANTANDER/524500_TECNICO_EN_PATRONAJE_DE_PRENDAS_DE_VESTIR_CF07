@@ -30,8 +30,8 @@
               p.mb-2.text-white Revisa el video que puede resultar útil  para aprender más sobre el escalado en Optitex.
             .col-lg-2.col-md-12.col-12
               a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=V81Fjuq8XWs" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
+                span Ir al sitio
+                i.fas.fa-video
 
 
 
