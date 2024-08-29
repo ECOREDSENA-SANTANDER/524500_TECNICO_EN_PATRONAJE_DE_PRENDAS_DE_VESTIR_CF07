@@ -59,7 +59,7 @@ export default {
           {
             numero: '1.6',
             titulo:
-              'Análisis y construcción de cuadro de tallas masculino - dxt',
+              'Análisis y construcción de cuadro de tallas masculino - dxt escalado',
             hash: 't_1_6',
           },
           {

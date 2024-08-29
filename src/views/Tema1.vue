@@ -179,7 +179,7 @@
               img.mx-1.img-a.img-t.d-none.d-lg-block(src="@/assets/curso/tema1/img8.svg", alt="tema 2")
             .col-lg-9.col-md-12.col-12
               h4.mb-1.text-white Análisis sobre plano cartesiano
-              p.mb-2.text-white Revisa el documento que pueden resultar útil  para aprender más sobre el análisis sobre plano cartesiano.
+              p.mb-2.text-white Revisa el documento que pueden resultar útil para aprender más sobre el análisis sobre plano cartesiano en la carpeta de anexos.
             .col-lg-2.col-md-12.col-12
               a.boton.color-acento-botones(href="https://sena4.sharepoint.com/sites/VirtualizacionRED/Documentos%20compartidos/Forms/AllItems.aspx?csf=1&web=1&e=BdcZyi&CID=882af08f%2D898c%2D4754%2Da052%2Dbbe012b22112&FolderCTID=0x01200065AA6BB53E9B80409763299A3784E386&id=%2Fsites%2FVirtualizacionRED%2FDocumentos%20compartidos%2F2024%2FLP%5FSantander%2FT%C3%A9cnicos%2F524500%20T%C3%A9cnico%20en%20patronaje%20de%20prendas%20de%20vestir%2FFuentes%20Antiguas%2FSENA%2DFUENTES%2FCF7%2FDisen%CC%83o%2FSliders%5FPCarte%2Eai&viewid=86cfee75%2Deb3e%2D4634%2D92b9%2Df4ac38922825&parent=%2Fsites%2FVirtualizacionRED%2FDocumentos%20compartidos%2F2024%2FLP%5FSantander%2FT%C3%A9cnicos%2F524500%20T%C3%A9cnico%20en%20patronaje%20de%20prendas%20de%20vestir%2FFuentes%20Antiguas%2FSENA%2DFUENTES%2FCF7%2FDisen%CC%83o" target="_blank")
                 span Descargar
