@@ -34,7 +34,7 @@
         .caja3.p-4
           .row.justify-content-center.align-items-center
             .col-lg-3.col-md-8.col-8
-              img.img-a.img-t(src='@/assets/curso/tema1/img2.png', alt='tema1')
+              img.img-a.img-t(src='@/assets/curso/tema1/img2.png', alt='la figura presenta un plano cartesiano, resaltando el punto de origen, el eje X y el eje Y.')
             .col-lg-7.col-md-12.col-12
               ul.lista-ul--color.f-1
                 li.mb-4.d-flex
@@ -89,7 +89,7 @@
           h5 Figura 1. 
           | Ubicación de los puntos en el plano cartesiano
     
-    .row.justify-content-center.mb-2(data-aos="zoom-in-left")(alt='la figura presenta 3 graficas del plano cartesiano: la primera describe el cuadrante I como positivo-aumenta, y el cuadrante III como negativo-reduce. La siguiente grafica nombra el eje de las X como ancho y el eje de las Y como largo. La tercera grafica presenta la ubicación de 4 coordenadas sobre el plano.')
+    .row.justify-content-center.mb-2(data-aos="zoom-in-left")(alt='La figura presenta 3 gráficas del plano cartesiano: la primera describe el cuadrante I como positivo-aumenta, y el cuadrante III como negativo-reduce. La siguiente gráfica nombra el eje de las X como ancho y el eje de las Y como largo. La tercera grafica presenta la ubicación de 4 coordenadas sobre el plano.')
       .col-lg-12.col-md-12.col-12
         .row.justify-content-center
           .col-lg-4.col-md-12.col-12.mb-4
@@ -109,7 +109,7 @@
         .titulo-sexto.color-secundario
           h5 Figura 2. 
           | Punto de origen
-        img.img-a.img-t(src='@/assets/curso/tema1/im50.svg', alt='la figura presenta un cuadrado ubicado en el centro del plano cartesiano, formado por las coordenada: (2,2)(-2,2)(-2,-2) y 2,-2).')
+        img.img-a.img-t(src='@/assets/curso/tema1/im50.svg', alt='La figura presenta un cuadrado ubicado en el centro del plano cartesiano, formado por las coordenada: (2,2)(-2,2)(-2,-2) y 2,-2).')
     
     p.mb-4 Para mayor comprensión de este cuadrado, se  deben dibujar dos cuadrados más, en total serían tres cuadrados donde el primero es el punto intermedio entre los otros dos, así como se presenta en la siguiente figura:
     
@@ -118,7 +118,7 @@
         .titulo-sexto.color-secundario
           h5 Figura 3. 
           | Tres cuadrados
-        img.img-a.img-t(src='@/assets/curso/tema1/im51.svg', alt='la figura presenta la ubicación de los tres cuadrados sobre el plano cartesiano.')
+        img.img-a.img-t(src='@/assets/curso/tema1/im51.svg', alt='La figura presenta la ubicación de los tres cuadrados sobre el plano cartesiano.')
     
     .row.justify-content-center.mb-4(data-aos="zoom-in-left")
       .col-lg-8.col-md-12.col-12
@@ -232,19 +232,63 @@
             .col-lg-7.col-md-12.col-12
               p.mb-4.negro Ejemplo:
               p.mb-4 Para identificar las proporciones a usar se debe trabajar con las siguientes medidas. En este caso el punto base o el punto de partida es el mediano, la diferencia entre medida y medida es: 
-                strong 2cm para aumentar y -2cm para reducir.
+                strong 2 cm para aumentar y -2 cm para reducir.
               p.mb-4 Para aplicar el escalado se trabaja con las proporciones, no con la diferencia.
-              .row.justify-content-center
-                .col-lg-10.col-md-12.col-12
-                  img.img-a.img-t(src='@/assets/curso/tema1/img10.jpg', alt='tema1')
-
+              .row.justify-content-center(data-aos="zoom-in-left")
+                .col-lg-11.col-md-12.col-12
+                  .titulo-sexto.color-secundario
+                    h5 Tabla 1. 
+                    | Proporciones
+              .row.justify-content-center.align-items-center
+                .col-lg-11.col-md-12.col-12
+                  .tabla-a.tabl.color-acento-contenido
+                    table.pad1(alt=' la figura presenta la ubicación de los tres cuadrados sobre el plano cartesiano.')
+                      thead
+                        tr
+                          th.text-white Medidas
+                          th.text-white Pequeño
+                          th.text-white Mediano
+                          th.text-white Grande
+                      tbody
+                        tr.cy
+                          td.text-center.hor Largo
+                          td.text-center.hor 2
+                          td.text-center.hor
+                            .row.justify-content-center
+                              .col-lg-3.col-md-3.col-3
+                                img.wi.my-3(src='@/assets/curso/tema1/fi.png', alt='tema1')
+                              .col-lg-5.col-md-5.col-6
+                                .bgrr.p-2
+                                  p.mb-0 4
+                              .col-lg-3.col-md-3.col-3
+                                img.wi.my-3(src='@/assets/curso/tema1/fd.png', alt='tema1')
+                          td.text-center.hor 6
+                        tr.cy
+                          td.text-center Ancho
+                          td.text-center 2
+                          td.text-center 
+                            .row.justify-content-center
+                              .col-lg-3.col-md-3.col-3
+                                img.wi.my-3(src='@/assets/curso/tema1/fi.png', alt='tema1')
+                              .col-lg-5.col-md-5.col-6
+                                .bgrr.p-2
+                                  p.mb-0 4
+                              .col-lg-3.col-md-3.col-3
+                                img.wi.my-3(src='@/assets/curso/tema1/fd.png', alt='tema1')
+                                
+                          td.text-center 6
+                        tr.cy
+                          td.text-center.hor
+                          td.text-center.hor 
+                          td.text-center.hor #[.or -2 cm &nbsp;&nbsp;&nbsp;2 cm]
+                          td.text-center.hor
     .ia.mb-4(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
         img(src='@/assets/curso/tema1/ia.svg', alt='')
         h2.mb-0.mx-2 Cómo identificar las proporciones 
             
 
-    p.mb-5(data-aos="fade-right") Si la diferencia entre una medida y otra es de 2cm. La proporción equivale a #[b la manera en la que se aplica en el plano,] es decir:
+    p.mb-5(data-aos="fade-right") Si la diferencia entre una medida y otra es de 2 cm. La proporción equivale a #[b la manera en la que se aplica en el plano,] es decir:
     
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-9.col-md-12.col-12
@@ -257,7 +301,7 @@
               ul.lista-ul--color.my-3
                 li.mb-4.mx-4.d-flex
                   i.fas.fa-chevron-right
-                  p.mb-0 #[b Si sobre el plano se aplica la medida completa,] dicha medida equivale a una proporción, entonces una proporción será 2cm.
+                  p.mb-0 #[b Si sobre el plano se aplica la medida completa,] dicha medida equivale a una proporción, entonces una proporción será 2 cm.
                 li.mb-0.mx-4.d-flex
                   i.fas.fa-chevron-right
                   p.mb-0 #[b Si sobre el plano se aplica la mitad de la medida, ]  esto equivale a 1/2 proporción, 1/2 proporción será 1 cm.
@@ -267,12 +311,17 @@
       .py-3.py-md-4.bg26.px-3(titulo="Plano completo")
         .row.justify-content-center
           .col-lg-5.col-md-12.my-3
-            img.img-a.img-t(src='@/assets/curso/tema1/img41.svg', alt='')
+            img.img-a.img-t(src='@/assets/curso/tema1/img41.svg', alt='La figura presenta un plano completo con un cuadrado dibujado con el centro justo en el punto de origen (0,0).')
           .col-lg-7.col-md-12.my-3
-            p.mb-5 En este caso se aplica #[b una proporción] porque en el plano se está trabajando la medida total.
+            p.mb-4 En este caso se aplica #[b una proporción] porque en el plano se está trabajando la medida total.
+            .row.justify-content-center(data-aos="zoom-in-left")
+                .col-lg-12.col-md-12.col-12
+                  .titulo-sexto.color-secundario
+                    h5 Tabla 2. 
+                    | Proporción completa
             .row.justify-content-center
               .col-lg-12.col-md-12
-                .tabla-a.tabla-peque(alt='La tabla expone los resultados de aplicar las fórmulas para diferentes medidas corporales a partir de una estatura total de 1.70 m y un tórax máximo de 90 cm. La cadera se calcula sumando 8 cm al tórax máximo, resultando en 98 cm. El pecho se obtiene restando 4 cm al tórax máximo, dando 86 cm. La cintura se determina restando 28 cm de la medida de la cadera, resultando en 70 cm. La estatura 7a cervical útil se calcula restando 20 cm de la estatura total, resultando en 1.50 m. Finalmente, el largo de brazo se calcula como 4/10 de la estatura 7aC, que resulta en 60 cm. ')
+                .tabla-a.tabla-peque
                   table.text-center
                     thead
                       tr.bl
@@ -298,12 +347,17 @@
       .py-3.py-md-4.bg26.px-3(titulo="Plano por mitad")
         .row.justify-content-center
           .col-lg-5.col-md-12.my-3
-            img.img-a.img-t(src='@/assets/curso/tema1/img42.svg', alt='')
+            img.img-a.img-t(src='@/assets/curso/tema1/img42.svg', alt='La figura presenta un plano con medio cuadrado dibujado, en la parte derecha del plano.')
           .col-lg-7.col-md-12.my-3
-            p.mb-5 En este caso en el ancho se debe aplicar 1/2 proporción, porque en el plano se está trabajando la mitad de la medida total.
+            p.mb-4 En este caso en el ancho se debe aplicar 1/2 proporción, porque en el plano se está trabajando la mitad de la medida total.
+            .row.justify-content-center(data-aos="zoom-in-left")
+              .col-lg-12.col-md-12.col-12
+                .titulo-sexto.color-secundario
+                  h5 Tabla 3. 
+                  | Proporción media
             .row.justify-content-center
               .col-lg-12.col-md-12
-                .tabla-a.tabla-peque(alt='La tabla expone los resultados de aplicar las fórmulas para diferentes medidas corporales a partir de una estatura total de 1.70 m y un tórax máximo de 90 cm. La cadera se calcula sumando 8 cm al tórax máximo, resultando en 98 cm. El pecho se obtiene restando 4 cm al tórax máximo, dando 86 cm. La cintura se determina restando 28 cm de la medida de la cadera, resultando en 70 cm. La estatura 7a cervical útil se calcula restando 20 cm de la estatura total, resultando en 1.50 m. Finalmente, el largo de brazo se calcula como 4/10 de la estatura 7aC, que resulta en 60 cm. ')
+                .tabla-a.tabla-peque
                   table.text-center
                     thead
                       tr.bl
@@ -355,7 +409,7 @@
         .titulo-sexto.color-secundario
           h5 Figura 4. 
           | Cuadro de tallas asignado
-        img.img-a.img-t(data-aos="fade-right")(src='@/assets/curso/tema1/im12.svg', alt='la figura presenta el cuadro de tallas y adicionalmente un diagrama con la descripción de cada medida.')
+        img.img-a.img-t(data-aos="fade-right")(src='@/assets/curso/tema1/im12.svg', alt='La figura presenta el cuadro de tallas y adicionalmente un diagrama con la descripción de cada medida.')
 
             
     .row.justify-content-center
@@ -801,7 +855,7 @@
             .col-lg-1.col-md-12.col-12
               img.mx-1.img-a.img-t.d-none.d-lg-block(src="@/assets/curso/tema1/img31.svg", alt="tema 2")
             .col-lg-9.col-md-12.col-12
-              h4.mb-1.text-white(data-aos="zoom-in-left") Análisis y construcción de cuadro de tallas masculino - dxt escalado
+              h4.mb-1.text-white(data-aos="zoom-in-left") Análisis y construcción de cuadro de tallas masculino
               p.mb-2.text-white(data-aos="zoom-in-left") Revisa el documento que pueden resultar útil  para aprender más sobre el análisis y construcción de cuadro de tallas masculino.
             .col-lg-2.col-md-12.col-12
               a.boton.color-acento-botones(:href="obtenerLink('/downloads/Análisis_y _construcción_de_cuadro_de_tallas_masculino.pdf')" target="_blank")

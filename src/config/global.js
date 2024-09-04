@@ -69,7 +69,6 @@ export default {
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
@@ -90,11 +89,11 @@ export default {
         titulo: 'Actividad didáctica',
         desarrolloContenidos: true,
       },
-      /*{
+      {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
-      },*/
+      },
       {
         nombreRuta: 'complementario',
         icono: 'far fa-folder-open',
@@ -129,6 +128,46 @@ export default {
       tipo: 'Documento',
       link:
         'https://repositorio.sena.edu.co/bitstream/handle/11404/5245/patronaje_escalado_linea_masculina.pdf;sequence=1',
+    },
+  ],
+  glosario: [
+    {
+      termino: 'Escalado',
+      significado: 'Adaptación a una determinada escala o marcas de medida.',
+    },
+    {
+      termino: 'Escalado bibásico',
+      significado: 'Se toman dos tallas básicas para obtener una intermedia.',
+    },
+    {
+      termino: 'Escalado monobásico',
+      significado:
+        'Partiendo de tallas base se obtienen las demás por aumento o reducción.',
+    },
+    {
+      termino: 'Escalado simple',
+      significado:
+        'Se aplica cuando los incrementos de tallas varían dentro de la serie.',
+    },
+    {
+      termino: 'Optitex',
+      significado:
+        'Empresa que ofrece soluciones de software para el diseño, la visualización y la producción de ropa en 2D y 3D.',
+    },
+    {
+      termino: 'Plano cartesiano',
+      significado:
+        'Dos rectas numéricas perpendiculares, una horizontal y otra vertical, que se cortan en un punto llamado origen o punto cero.',
+    },
+    {
+      termino: 'Proporciones',
+      significado:
+        'En escalado son medidas de los aumentos o disminuciones secuenciales para obtener tallas mayores o menores, moldes o bases.',
+    },
+    {
+      termino: 'Talla',
+      significado:
+        'Medida convencional usada en la fabricación y venta de prendas de vestir.',
     },
   ],
   referencias: [
@@ -178,12 +217,12 @@ export default {
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del Ecosistema',
+          cargo: 'Responsable del ecosistema',
           centro: 'Dirección General',
         },
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Responsable de Línea de Producción',
+          cargo: 'Responsable de línea de producción',
           centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
@@ -193,25 +232,25 @@ export default {
       autores: [
         {
           nombre: 'Lizeth Maritza Rodríguez Beltrán',
-          cargo: 'Instructora Técnica',
+          cargo: 'Instructora técnica',
           centro:
             'Regional Distrito Capital - Centro de Manufactura en Textil y Cuero',
         },
         {
           nombre: 'Natalia Andrea Bueno Pizarro',
-          cargo: 'Diseñadora y Evaluadora Instruccional',
+          cargo: 'Diseñadora y evaluadora instruccional',
           centro:
             'Distrito Capital – Centro para La Industria de la Comunicación Gráfica',
         },
         {
           nombre: 'Julia Isabel Roberto',
-          cargo: 'Diseñadora y Evaluadora Instruccional',
+          cargo: 'Diseñadora y evaluadora instruccional',
           centro:
             'Distrito Capital – Centro para La Industria de la Comunicación Gráfica',
         },
         {
           nombre: 'Carolina Jiménez Suescún',
-          cargo: 'Evaluadora Instruccional',
+          cargo: 'Evaluadora instruccional',
           centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
@@ -221,17 +260,17 @@ export default {
       autores: [
         {
           nombre: 'Yazmin Rocio Figueroa Pacheco',
-          cargo: 'Diseñadora de Contenidos Digitales',
+          cargo: 'Diseñadora de contenidos digitales',
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {
           nombre: 'Pedro Alonso Bolivar Gonzalez',
-          cargo: 'Desarrollador <em>Fullstack</em>',
+          cargo: 'Desarrollador <em>full stack</em>',
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {
           nombre: 'Maria Alejandra Vera Briceño',
-          cargo: 'Animadora y Productora Multimedia',
+          cargo: 'Animadora y productora multimedia',
           centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
@@ -241,12 +280,12 @@ export default {
       autores: [
         {
           nombre: 'Laura Paola Gelvez Manosalva',
-          cargo: 'Validadora de Recursos Educativos Digitales',
+          cargo: 'Validadora de recursos educativos digitales',
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {
           nombre: 'Erika Fernanda Mejía Pinzón',
-          cargo: 'Evaluadora para Contenidos Inclusivos y Accesibles',
+          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Regional Santander - Centro Agroturístico',
         },
       ],

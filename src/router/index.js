@@ -47,6 +47,14 @@ const router = new VueRouter({
         import(/* webpackChunkName: "actividad" */ '../views/Actividad.vue'),
     },
     {
+      path: '/glosario',
+      name: 'glosario',
+      component: () =>
+        import(
+          /* webpackChunkName: "glosario" */ '../../node_modules/ecored-base-pkg/src/views/Glosario.vue'
+        ),
+    },
+    {
       path: '/complementario',
       name: 'complementario',
       component: () =>
