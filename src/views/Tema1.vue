@@ -311,6 +311,9 @@
       .py-3.py-md-4.bg26.px-3(titulo="Plano completo")
         .row.justify-content-center
           .col-lg-5.col-md-12.my-3
+            .titulo-sexto.color-secundario
+              h5 Figura 4. 
+              | Plano completo
             img.img-a.img-t(src='@/assets/curso/tema1/img41.svg', alt='La figura presenta un plano completo con un cuadrado dibujado con el centro justo en el punto de origen (0,0).')
           .col-lg-7.col-md-12.my-3
             p.mb-4 En este caso se aplica #[b una proporción] porque en el plano se está trabajando la medida total.
@@ -347,6 +350,9 @@
       .py-3.py-md-4.bg26.px-3(titulo="Plano por mitad")
         .row.justify-content-center
           .col-lg-5.col-md-12.my-3
+            .titulo-sexto.color-secundario
+              h5 Figura 5. 
+              | Plano por la mitad
             img.img-a.img-t(src='@/assets/curso/tema1/img42.svg', alt='La figura presenta un plano con medio cuadrado dibujado, en la parte derecha del plano.')
           .col-lg-7.col-md-12.my-3
             p.mb-4 En este caso en el ancho se debe aplicar 1/2 proporción, porque en el plano se está trabajando la mitad de la medida total.
@@ -407,7 +413,7 @@
     .row.justify-content-center.mb-4(data-aos="fade-right")
       .col-lg-4.col-md-12.col-12.mb-4
         .titulo-sexto.color-secundario
-          h5 Figura 4. 
+          h5 Figura 6. 
           | Cuadro de tallas asignado
         img.img-a.img-t(data-aos="fade-right")(src='@/assets/curso/tema1/im12.svg', alt='La figura presenta el cuadro de tallas y adicionalmente un diagrama con la descripción de cada medida.')
 
@@ -515,7 +521,7 @@
           .row.justify-content-center.align-items-center.mb-0
             .col-lg-4.col-md-12.col-12
               .titulo-sexto.color-secundario
-                h5 Figura 5. 
+                h5 Figura 7. 
                 | Punto de origen 1
               img.img-a.img-t(src='@/assets/curso/tema1/img13.svg', alt='La figura presenta una pieza de una prenda ubicada en un plano donde se destaca el punto de origen (0,0), adicionalmente se señalan los cm de aumento en cada vértice de la pieza.')
             .col-lg-6.col-md-12.col-12
@@ -528,7 +534,7 @@
           .row.justify-content-center.align-items-center.mb-0
             .col-lg-4.col-md-12.col-12
               .titulo-sexto.color-secundario
-                h5 Figura 6. 
+                h5 Figura 8. 
                 | Punto de origen 2
               img.img-a.img-t(src='@/assets/curso/tema1/img14.svg', alt='La figura presenta una pieza de una prenda ubicada en un plano donde se destaca el punto de origen (0,0) en uno de los vértices, adicionalmente se señalan los cm de aumento de la talla M a la L en cada vértice de la pieza.')
             .col-lg-6.col-md-12.col-12
