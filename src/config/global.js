@@ -223,7 +223,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo: 'Responsable de línea de producción',
-          centro: 'Regional Santander - Centro Agroturístico',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -234,24 +234,24 @@ export default {
           nombre: 'Lizeth Maritza Rodríguez Beltrán',
           cargo: 'Instructora técnica',
           centro:
-            'Regional Distrito Capital - Centro de Manufactura en Textil y Cuero',
+            'Centro de Manufactura en Textil y Cuero - Regional Distrito Capital',
         },
         {
           nombre: 'Natalia Andrea Bueno Pizarro',
           cargo: 'Diseñadora y evaluadora instruccional',
           centro:
-            'Distrito Capital – Centro para La Industria de la Comunicación Gráfica',
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
         },
         {
           nombre: 'Julia Isabel Roberto',
           cargo: 'Diseñadora y evaluadora instruccional',
           centro:
-            'Distrito Capital – Centro para La Industria de la Comunicación Gráfica',
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
         },
         {
           nombre: 'Carolina Jiménez Suescún',
           cargo: 'Evaluadora instruccional',
-          centro: 'Regional Santander - Centro Agroturístico',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -261,17 +261,17 @@ export default {
         {
           nombre: 'Yazmin Rocio Figueroa Pacheco',
           cargo: 'Diseñadora de contenidos digitales',
-          centro: 'Regional Santander - Centro Agroturístico',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Pedro Alonso Bolivar Gonzalez',
           cargo: 'Desarrollador <em>full stack</em>',
-          centro: 'Regional Santander - Centro Agroturístico',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Maria Alejandra Vera Briceño',
           cargo: 'Animadora y productora multimedia',
-          centro: 'Regional Santander - Centro Agroturístico',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -281,12 +281,12 @@ export default {
         {
           nombre: 'Laura Paola Gelvez Manosalva',
           cargo: 'Validadora de recursos educativos digitales',
-          centro: 'Regional Santander - Centro Agroturístico',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Erika Fernanda Mejía Pinzón',
           cargo: 'Evaluadora para contenidos inclusivos y accesibles',
-          centro: 'Regional Santander - Centro Agroturístico',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
